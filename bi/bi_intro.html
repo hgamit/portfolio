@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>blogs</title>
+	<script src="script.js"></script>
+<style>
+.content-section {
+  display: none;
+} 
+</style>
+ </head>
+  <body>
+<div class="container" class="col-sm-8">
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand"><strong>Himanshu Gamit</strong></a>
+	<ul class="nav nav-tabs card-header-tabs justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="../blogs.html">Blog</a>
+      </li>
+    </ul>
+</nav>
+   </div>
+
+<br/>
+<main role="main" class="container text-justify">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+        <h2 class="blog-post-title">Formulating The Core of The Analysis</h2>
+        <p class="blog-post-meta"><strong>January 5, 2020. 5 Minutes Read</strong></p>
+        <hr>
+<h6><strong>References:</strong></h6>
+
+<ul>
+<li><a href="https://youtu.be/DV4IMjnL_IU">Business Intelligence and Data Warehousing</a></li>
+<li><a href="http://www.databaseanswers.org/downloads/Dimensional_Modelling_by_Example.pdf">Dimensional Modelling</a></li>
+</ul>
+<hr>
+        <p>This blog post details format that needs to be considered while understanding and transforming data tables into business insights.</p>
+		
+        <hr>
+		
+		<h5><strong>Formulating The Core Analysis:</strong></h5>
+        <p>        <ol>
+          <li>Establish the business user's requirements.</li>
+		  <li>Define the conceptual Model and Determine the grain of the data.</li>
+          <li>Identify the Dimensions (Analyze by what?)</li>
+		  <li>Identify the Facts/Business Number (What Is most important subject measure? What could be Key Performance Indicators?)</li>
+		  <li>Finalizing and evaluating Key Performance Indicators and Keeping an eye on Signals.</li>
+        </ol></p>
+		
+		<h6><strong>1. Establish the business user's requirements. </strong></h6>
+        <p> Usually, Business user's focus is on gaining knowledge through movements in the data.For example, Universities wants to improve student engagement. To define key performance indicators, Data Scientist plays very big role providing business insights to drive strategic decisions based on any given data. One should always ask following queries before preparing KPI building data pipeline.</p>
+		
+		 <p>        <ol>
+          <li>Who is the intended audience? E.g., Monitoring Administrator for Universities Data.</li>
+          <li>What questions does this visualization answer? Number of Lab Users, Most Used Spaces, Term Seasonality, Unused areas, Peak Weeks throughout the semester/month/year etc.</li>
+          <li>What data is represented in this analysis/visualization?  Most of the times, Date and Time, space, equipemnts, User Hits.</li>
+		  <li>How is the data analytically/visually encoded? predictions, Heatmap, Trend Line, Bar Chart, other ML/DL methods.</li>
+		  <li>Why do you like / dislike this analytics/visualization? Does it answer necessary question and is it easy for business user to identify.</li>
+        </ol></p>
+		
+		<h6><strong>2. Define the conceptual Model and Determine the grain of the data.</strong></h6>
+		
+		<p><strong>Conceptual Data Models: </strong>Conceptual Data Models are very important for helping the end-user to understand the data that is available and the basic relationships. This is specialty designed to be a ‘User-Friendly’ Model that shows the structure of the data that is available to support Analytics, Reports and BI requirements. It can be described as follows: Passengers make Reservations for Scheduled Flights operated by Airlines. They take Flights and make Payments  which generate Revenue
+		<div class="text-center">
+		<img class="card-img-right flex-auto d-none d-md-block img-fluid" style="margin-top: 40px;margin-right: 30px; max-width: 50%; height: auto;" alt="Thumbnail [200x250]" src="images/concept_modelling.PNG" />   </div>
+		</p>
+        <p><strong>Grain Evaluation: </strong>Lowest level at which business numbers are measured. What is lowest level of information is stored in data table?. For better Reporting and Analytics - Keep lowest possible grain as it can be to allow appropriate drilling. For E.g. In Date Time Field, Year-->Semester-->Quarter-->Month-->Week-->Day-->Hour. </p>
+		
+		
+						<p><strong>3. Identify the Dimensions (Analyze by what?)</strong></p>
+        <p> Caonceptual data model for airlines will have Date, Flight Name, Seats, Prices, Locations, Reservations and Passengers. In this fields, text values such as Date, Flight Name, Locations can be used to describe seats, prices, reservations and passengers. So, the fields that describes this quantitative numbers are Dimensions. Dimensions are used for Slicing and Dicing, Filtering, Grouping, Labelling etc.</p>
+		  
+		  
+		<h6><strong>4. Identify the Facts/Business Number (What Is most important subject measure? What could be Key Performance Indicators?)</strong></h6>
+        <p> A Fact in business data tables provides quantitative information about business process. It is business measure on which Average, Totals, Percentages, KPIs, and Trend Figures are derived. In above airline example, Seats, Prices, Reservations and Passenger numbers could be used as Business Number to understand Airline Performance over a period of time.</p>
+
+<h6> <strong>5. Finalizing and evaluating Key Performance Indicators and Keeping an eye on Signals. </strong></h6>
+        <p> Once we settle down on Business Numbers and Dimensions explaining data tables. It could give several charts and plots to analyse data movements. It is very important to define KPIs and its thresholds on performance whether the data shows growth or not to take strategic decisions.
+<div class="text-center">
+		<img class="card-img-right flex-auto d-none d-md-block img-fluid" style="margin-top: 40px;margin-right: 30px; max-width: 80%; height: auto;" alt="Thumbnail [200x250]" src="images/KPI.PNG" />   </div></p><p>As it is shown in above table. KPI is monitored and Decision could be made based on produced threshold. This blog post is meant to revise and dive deep into formulating core analysis using above specified references, Next we will see DateTime Dimensinal uses for Business Analysis.</p>
+      </div><!-- /.blog-post <a href="#" class="stretched-link">Continue reading</a> -->
+  <hr>
+
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+	
+	  <div class="p-4">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h3 class="mb-0">Case Study</h3>
+          <div class="mb-1 text-muted">Jan 1, 2020</div>
+          <p class="card-text mb-auto">Introductory Stats case study.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+      </div>
+    </div>
+      <div class="p-4">
+        <h4 class="font-italic">Archives</h4>
+        <ol class="list-unstyled mb-0">
+          <li><a href="#">Jan 2020</a></li>
+        </ol>
+      </div>
+
+      <div class="p-4">
+        <h4 class="font-italic">Elsewhere</h4>
+        <ol class="list-unstyled">
+          <li><a href="https://github.com/hgamit">GitHub</a></li>
+        </ol>
+      </div>
+    </aside><!-- /.blog-sidebar -->
+
+  </div><!-- /.row -->
+
+</main>
+
+
+
+<footer class="footer">
+      <div class="container-fluid">
+	  <p class= "text-center">
+        <span class="text-muted">
+        <a onclick="trackOutboundLink('https://www.linkedin.com/in/himanshu-gamit-66262224/');" href="https://www.linkedin.com/in/himanshu-gamit-66262224/" target="_blank" alt="LinkedIn">LinkedIn</a>
+        |
+        <a onclick="trackOutboundLink('https://speakerdeck.com/hgamit');" href="https://speakerdeck.com/hgamit" target="_blank" alt="Speaker Deck">Speaker Deck</a>
+        |
+        <a onclick="trackOutboundLink('mailto:himanshu.gamit@stthomas.edu');" href="mailto:himanshu.gamit@stthomas.edu" target="_blank" alt="email">Email</a>
+     </span>
+      </p>
+	  </div>
+    </footer>
+
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
