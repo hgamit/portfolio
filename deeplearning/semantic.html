@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>blogs</title>
+	<script src="script.js"></script>
+<style>
+.content-section {
+  display: none;
+} 
+</style>
+ </head>
+  <body>
+<div class="container" class="col-sm-16">
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand" href="../index.html"><strong>Himanshu Gamit</strong></a>
+	<ul class="nav nav-tabs card-header-tabs justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="../blogs.html">Blog</a>
+      </li>
+    </ul>
+</nav>
+   </div>
+
+<br/>
+<main role="main" class="container text-justify">
+<div class="container" >
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+        <h2 class="blog-post-title">What is Semantic Image Segmentation?</h2>
+        <p class="blog-post-meta"><strong>October 15, 2019. 5 Minutes Read</strong></p>
+
+        <p>Semantic image segmentation is the task in the convolution neural netwrok to mask or color similar objects in the image. In this article, we define what is Semantic Segmentation and it's use cases.</p>
+		
+               <hr>
+<h6><strong>References:</strong></h6>
+
+<ul>
+<li><a href="https://www.jeremyjordan.me/semantic-segmentation/">Overview of the Semantic Segmentation</a></li>
+<li><a href="https://www.topbots.com/semantic-segmentation-guide/">Semantic Image Segmentation Use Cases</a></li>
+</ul>
+<hr>		
+		<h6><strong>What are the common approaches to solving image identification problems?</strong></h6>
+		<p>Image identification problems are solved using Convolution Neural Networks. Most common of them are explained in below image and it is easy distiguish how semantic segmentation is different.</p>
+        
+		<img class="card-img-right flex-auto d-none d-md-block img-fluid" style="margin-top: 10px;margin-right: 10px; max-width: 100%; height: auto;" alt="Thumbnail [200x250]" src="../images/base/segm.png" />
+
+		<h6><strong>What we're predicting for every pixel in the image?</strong></h6>
+        <p>Semantic segmentation is a form of pixel-level prediction because each pixel in an image is classified according to a category or class label. Since each pixel gets classified, it is also called as Dense Prediction. In below image if we consider image backgroud as well, prediction would be of three labels (Person, Bicycle and Background).</p>		
+		<div class="text-center">
+		<img class="card-img-right flex-auto d-none d-md-block img-fluid" style="margin-top: 20px;margin-bottom: 10px; width: 750px; height: 280px;" alt="Thumbnail [200x250]" src="images/segmentation.png" />
+          </div>
+		  
+		  
+	<h6><strong>Image Segmentation models are useful for a variety of tasks:</strong></h6>
+        <p> As the field of convolution neural network evolves, the usecases are going to grow too. Here are some of the known usecases of the semantic segmentation models that are being used in real world.
+		<ul>
+          <li><strong>Autonomous vehicles: </strong> To easily differentiate between road with others. We need to equip cars with the necessary perception to understand their environment so that self-driving cars can safely integrate into our existing roads.
+		  <img class="card-img-right flex-auto d-none d-md-block img-fluid" style="margin-top: 20px;margin-left: 20px;margin-bottom: 20px; max-width: 100%; height: auto;" alt="Thumbnail [200x250]" src="images/deeplabcityscape.gif" />
+		  </li>
+<li><strong>Medical image diagnostics: </strong> Machines can augment analysis performed by radiologists, greatly reducing the time required to run diagnositic tests. For example, It can identify important features in medical scans. So that, It is especially useful to identify abnormalities such as tumors or the functioning of the organs.
+<img class="card-img-right flex-auto d-none d-md-block img-fluid" style="margin-top: 20px;margin-left: 20px;margin-bottom: 20px; width: 500px; height: 270px;" alt="Thumbnail [200x250]" src="images/medical_scans.jpg" />
+
+</li>
+
+<li><strong>Fashion Industry: </strong> Semantic Segmentation is used in the Fashion Industry to extract clothing items from an image to provide similar suggestions from retail shops. More advanced algorithms can “re-dress” particular items of clothing in an image. </li>
+        </ul>
+
+Here, the articles will be short and simple. Semantic image segmentation would be explored further in detail as we put together content on deep learning articles. 
+<ul>
+      </div><!-- /.blog-post <a href="#" class="stretched-link">Continue reading</a> -->
+  <hr>
+
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+	
+	  <div class="p-4">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h3 class="mb-0">Case Study</h3>
+          <div class="mb-1 text-muted">Jan 1, 2020</div>
+          <p class="card-text mb-auto">Introductory Stats case study.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+      </div>
+    </div>
+      <div class="p-4">
+        <h4 class="font-italic">Archives</h4>
+        <ol class="list-unstyled mb-0">
+          <li><a href="#">Jan 2020</a></li>
+        </ol>
+      </div>
+
+      <div class="p-4">
+        <h4 class="font-italic">Elsewhere</h4>
+        <ol class="list-unstyled">
+          <li><a href="https://github.com/hgamit">GitHub</a></li>
+        </ol>
+      </div>
+    </aside><!-- /.blog-sidebar -->
+
+ </div><!-- /.row -->
+  
+ </div>
+</main>
+
+</div>
+
+  <footer class="footer">
+      <div class="container-fluid">
+	  <p class= "text-center">
+        <span class="text-muted">
+        <a onclick="trackOutboundLink('https://www.linkedin.com/in/himanshu-gamit-66262224/');" href="https://www.linkedin.com/in/himanshu-gamit-66262224/" target="_blank" alt="LinkedIn">LinkedIn</a>
+        |
+        <a onclick="trackOutboundLink('https://speakerdeck.com/hgamit');" href="https://speakerdeck.com/hgamit" target="_blank" alt="Speaker Deck">Speaker Deck</a>
+        |
+        <a onclick="trackOutboundLink('mailto:himanshu.gamit@stthomas.edu');" href="mailto:himanshu.gamit@stthomas.edu" target="_blank" alt="email">Email</a>
+     </span>
+      </p>
+	  </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
