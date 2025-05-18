@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Projects</title>
+	<script src="script.js"></script>
+<style>
+.content-section {
+  display: none;
+} 
+</style>
+ </head>
+  <body>
+<div class="container" class="col-sm-8">
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand" href="index.html"><strong>Himanshu Gamit</strong></a>
+	<ul class="nav nav-tabs card-header-tabs justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="projects.html">Projects</a>
+      </li>
+    <!--  <li class="nav-item">
+        <a class="nav-link" href="blogs.html">Blog</a>
+      </li>
+	        <li class="nav-item">
+        <a class="nav-link"  href="slider.html">Slider</a>
+      </li> -->
+    </ul>
+</nav>
+<main class="container text-justify" role="main">
+      <div class="row">
+        <div class="col-md-auto blog-main">
+
+         <div class="blog-post">
+		   <hr>
+            <h2 class="blog-post-title"><a href="https://www.bostonscientific.com/en-US/Home.html">Boston Scientific</a></h2>
+           
+
+ <p class="blog-post-meta"><strong>Sr. Data Scientist/Engineer : Nov, 2022 - Present</strong></p>
+         
+<ul>
+<li>Formulate and execute a strategic plan for analytics technologies and platforms in Sales Operations at BSC. Involves administering/executing data lake development and Governance of the data analytics system (Snowflake, AWS).</li>
+<li>Partner with an Agile Product Team to manage dashboard products from opportunity identification, design, testing, deployment, and adoption to change management, hypercare, and helpdesk support. (SQL, Tableau, Tableau Prep, Alteryx).</li>
+<li>Governance and Security: Medical Devices Sales Data Review and Management at the user end. Data Hierarchy and Alignment Management from the different sources of data. Tableau Data Reporting, Sales Rep Engagements, Data Visualizations, and User Permissions Control.</li>
+<li>Code solutions, in partnership with technical experts and developers, to produce actionable insights aligned with business requirements. (Python Snowflake, SQL)</li>
+<li>Collaborate with technical experts to translate Analysts clients needs into data modeling, computations, and dashboard design using agile methodologies.</li>
+<li>Assessed current processes and implemented data engineering and application development track for the organization.</li>
+<li>Investigation of data inconsistencies for the team to understand the root cause and fix the issue.</li>
+</ul>	
+          </div><!-- /.blog-post -->
+		  <div class="blog-post">
+		   <hr>
+            <h2 class="blog-post-title"><a href="https://crowdcapital.io/">Crowd Capital</a></h2>
+           
+
+ <p class="blog-post-meta"><strong>Sr. Data Engineer : Mar, 2022 - Oct, 2022</strong></p>
+         
+<ul>
+<li>Communicating with stakeholders to study domain and build data product requirements.</li>
+<li>Supervised a team of two data engineers, helping them learn and grow.</li>
+<li>Collaborated on Building robust Property Scoring Module Analysis and Developing Bid Optimization by querying big data. (CloudTech/AWS/Azure, BigData/Databricks, Python, Spark/Distributed Computing, Containers/Docker/Serverless, SQL REST APIs, CI/CD, Windows/UNIX Systems).</li>
+<li>Implemented big data solutions that extract, transform, validate and load (ETL) real-state mortgage industry data and house industry analytics.</li>
+<li>Illustrated property investigation team to engage, retain, and acquire new properties.</li>
+<li>Assessed current processes and implemented data engineering and application development track for the organization.</li>
+<li>Investigation of data inconsistencies for the team to understand the root cause and fix the issue.</li>
+</ul>	
+          </div><!-- /.blog-post -->
+
+
+
+          <div class="blog-post">
+		   <hr>
+            <h2 class="blog-post-title"><a href="https://emeritus.org/">Emeritus</a></h2>
+           
+
+ <p class="blog-post-meta"><strong>Subject Matter Expert (Data Engineering) : Oct, 2021 - Apr,2022</strong></p>
+         
+<ul>
+<li>Data Engineering Content development, modules review, and troubleshooting workflows.</li>
+<li>Weekly Meetings, Videos reviews, Data Engineering Tools Troubleshooting, Team Engagement, and Support.</li>
+<li>Manage and help deliver learning Module Content.</li>
+</ul>	
+          </div><!-- /.blog-post -->
+
+
+          <div class="blog-post">
+		   <hr>
+            <h2 class="blog-post-title"><a href="https://www.123goecom.com/">Global Overview</a></h2>
+           
+
+ <p class="blog-post-meta"><strong>Lead Data Engineer : Oct, 2021 - Feb,2022</strong></p>
+         
+<ul>
+<li>Led a team of three data engineers, helping them learn and grow. Development and Maintenance of Data engineering Projects.</li>
+<li>Demonstrating leadership skills, evaluating current processes, and implementing data engineering and application development track for the organization.</li>
+<li>Accomplished robust Marketing Spend Model (DSP, OTT, Search compared to Sales) Analysis and Developing Ecommerce Customer Acquisition Funnel by querying big data. MTA, cross channel optimization.</li>
+<li>Integrated marketing team performs engagement, retention, acquisition, marketing efficiency, A/B testing</li>
+</ul>	
+
+<p class="blog-post-meta"><strong>Data Engineer : Mar, 2021 - Oct, 2021</strong></p>
+         
+<ul>
+<li><strong>Created robust analytical infrastructure:</strong> connecting structured and unstructured data sources from data 
+sources such as AWS RDS, REST API, AWS S3 to Postgres Database for ease of use by different analysts using 
+Python, SQL, and Alteryx. 100+ Vendor and Seller accounts plus approximately 150+ advertising brands. Python, 
+Alteryx</li>
+<li><strong>Designed Data Warehouse:</strong> Design, Implementation, and Management - Built Single Version of Truth for the 
+analytical and reporting needs. AWS RDS</li>
+<li><strong>Optimized Reporting Performance:</strong> Deep dive into performance issues with analysts improving External 
+Marketing/Sales Report performance from dead slow to 2 seconds refresh leveraging report user experience 
+interacting with reporting. The same thing goes for most other reports. #Tableau, Datorama </li>
+<li><strong>Analytical study of big data and extracting insights:</strong> from the big data lake. AMC Visualization, Development, 
+Coding, Execution. Navigating the project and drive communications with Amazon and internal teams.
+Optimizing marketing channel presentation through automating reporting solutions to gain marketing spend 
+clarity. #AmazonMarketingCloud, Python, SQL, AWS </li>
+<li>Datorama: Help support Salesforce Datorama development, execution, and building feedback for Professional 
+Service Provider. Understand datorama backend and development. </li>
+<li>Identify business priorities and reply timely to keep up with the demands. Introducing ways of tracking high-priority projects, compiling agile methods to introduce and track team progress better. Jira, Confluence, Github </li>
+<li>Supporting technical development aspects of the Data engineering/Goalkeeper with external data vendor </li>
+<li>Utilizing technical skills to guide team and support major visualization product developments and transitions </li>
+<li>Data Tools evaluation to see if that will cost less and give better performance. In-housing data engineering  
+projects, Coming with project and development plans and sharing them with the team to build cost-savings 
+measures. </li>
+<li>Chime in wherever needed and assist the team resolve high-priority issues - data engineering, validations, and 
+visualizations. Continuous coordination with analysts, business users, and stakeholders to make data and 
+systems available on time. </li>
+<li>Working with team in-housing share of voice analysis development, integration, and automation. Planning to 
+capture buyer experience when they look for a product on amazon.com. Involves guiding new engineers to get 
+acquainted with building data engineering solutions. </li>
+<li>Tableau Server Setup and Management - Optimization and Improvements. Alteryx Server Setup and 
+Management - Access and Environment Management. </li>
+<li>Interviewing technical data engineering candidates and helping human resources with the hiring decisions. </li>
+<li>Shared thoughts with leadership making Decisions and made myself available as needed. </li>
+			
+</ul>	
+
+
+
+<p class="blog-post-meta"><strong>ETL Developer : Oct 2020 - Mar, 2021</strong></p>
+         
+<ul>
+<li>Fixed Database (data swamp) by building data warehouse system in about 3 months - Worked on 560+ Tables 
+each having different complexity simplifying Global Overviews Backend System to 20-30 valuable database 
+tables. (AWS RDS – PostgreSQL, ALteryx). Evaluating and Performing Grain Evaluation: Identified the granularity 
+of each table and business process to drill down to very important dimensions and measures. Various scenarios 
+and Questions got brainstormed to improve the intelligent system. (SQL, Database Postgres)</li>
+<li>Tableau Server Crash – help restore the server from the crash and defined a backup strategy around it to avoid 
+future crashes. (Tableau Server, AWS EC2)</li>
+<li>DWE Server Setup and Management: Build Database architecture from scratch, also responsible for Access and 
+Environment Management. (AWS Cloud, Security Groups and Networking)</li>
+<li>Build Healthy Data Delivery Pipeline supporting Advertising, Vendor Central, and Seller Central Reporting (24x7 
+with less Human Intervention) #Reason Automation Migration and implementation. </li>
+<li>Involved with leadership(Operations, Retail, and Marketing Teams) share knowledge in decisions making. </li>
+<li>Worked on documenting all tables created to ensure all transactions are drafted properly. </li>
+			
+</ul>
+
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post">
+		   <hr>
+            <h2 class="blog-post-title"><a href="http://cytilife.com/">Cytilife Inc.</a></h2>
+            <p class="blog-post-meta"><strong>Nov, 2019 - Present</strong></p>
+            <p><strong>Analytical Pipeline (AWS Web Services Stack:</strong> Built robust analytical infrastructure connecting structured and unstructured data sources from data sources such as (RDS, Click Stream and logs) to AWS Redshift, AWS EMR for ease of use by different analysts using Pandas, AWS Athena and QuickSight. (Amazon Kinesis Data Firehouse, AWS S3, AWS Lamda, Glue, DMS, Athena).</p>
+			<p><strong>Cloud Computing: </strong> The AWS infrastructure for the real-time data analysis that involves visualizing and Forecasting Resource Utilization (100K to Millions of rows) of processed data on AWS S3. This helps the administration to investigate business insights from campus resource usage from IoT and Applications Data to determine space and equipment’s demands to take strategic budgeting and resource requirements decisions. (Python, SQL, Visualization).</p>
+			<p><strong>Data Warehousing: Evaluating and Performing Grain Evaluation: </strong> Identified the granularity of each table and business process to drill down to very important dimensions and measures. Various scenarios and Questions got brainstormed to improve the intelligent system. (SQL, MySQL, Visualization).</p>
+			<p><strong>ML Insights and Anomaly Detection: </strong> Python, QuickSight Visualization, Tableau.</p>
+			<p><strong>Computer Vision: </strong> Building real-time people counting application Dashboard for University Administration. OpenCV, Python, AWS.</p>
+			<p><strong>Usage Forecasting: </strong> End to End, Designed Forecasting App with machine learning pipeline and hosted model on Rest API to utilize it making predictions. Pytorch, Python, MySQL, Django, AWS. Deployed machine learning model as a REST API using AWS services like ECR, Sagemaker and Lambda for the Mobile App Development.</p>
+			<ul>
+			  <li>Continuous coordination with QA team, production support team and deployment team. </li>
+			  <li>Worked on documenting all tables created to ensure all transactions are drafted properly.</li>
+			</ul> 
+          </div><!-- /.blog-post -->
+		   <div class="blog-post">
+		   <hr>
+            <h2 class="blog-post-title"><a href="https://www.stthomas.edu/academics/graduate/engineering/index.html">University of St. Thomas, St Paul.</a></h2>
+            <p class="blog-post-meta"><strong>Mar, 2018 - Present</strong></p>
+			<p style="color:blue;font-size:20px;"><strong>ML/AI Projects</strong></p>
+            <p><strong>Research Assistant Machine Learning:</strong> Unsupervised Contextual Clustering of Abstracts. Used NSF abstract data (300K to Millions of rows) for the last 34 years producing document context through Gensim Doc2Vec Model which suggests similar abstracts based on given abstract. (Deep Learning, ML, NSF, NLP, Python, Visualization, SAS). The submitted paper is being selected at SAS Global Forum 2020 and My Team ranked 1st in the Nationwide SAS Competition. Working on BERT/GPT Models to perform transfer learning/document embeddings.</p> <a href="https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2020/5203-2020.pdf">#Publication</a> 
+			<a href="https://youtu.be/B_3-nbXDruI">#YoutubeVideo</a>
+            <p><strong><a href="https://devpost.com/software/improving-nsf-merit-review-proceess-using-nlp">AWSMktPlaceApp: </a> </strong> AWS Implementation of the machine learning model as a REST API using Docker(with pre-requisite libraries) and AWS services like ECR, Sagemaker and Lambda for the AWS Marketplace Competition.</p>
+			<hr>
+			
+			<p><strong>Computer Vision - Semantic Image Segmentation Fall 2019: </strong> Developed Computer Vision Project. This is Artificial Intelligence Class project was meant to familiarize and apply understanding from DL and ML methods solving Semantic Image Segmentation Problem. (Deep Learning, Pytorch Python, OpenCV, GPU Programming, Deep Learning).</p>
+			<p><strong>Classification: ML Project: </strong> Kickstarter projects to predict the crowdfunded project would be successful, cancelled or unsuccessful.(Scikit Learn, RandomForest, XGBosst, LightGBM, Python, SNS, Pandas, Machine Learning etc..). </p>
+			<p><strong>Classification- AIM Consulting Hackathon: </strong>Won the competition. Designed and developed machine learning classifier on a highly imbalanced dataset. (Scikit Learn, RandomForest, XGBoost, Python, SNS, Pandas, Machine Learning) </p>
+			<p><strong><a href="https://www.kaggle.com/hmnshu/competitions">Kaggle.com</a> and <a href="https://www.hackerrank.com/Hmnshu2013">Hackerrank.com</a> (Some of my Recent Projects Listed Below) – Since 2015: </strong>
+			<ul>
+			  <li>Jigsaw Unintended Bias in Toxicity Classification NLP – created classifying text comment model based on toxicity sentiment considering gender bias into the picture, BERT, LSTM – Top 8% (225/3165 competitors) (NLP, Python, Pytorch, Deep Learning). </li>
+			  <li>Built Image Classifier(Diabetic Retinopathy)– Fastai, Pytorch, Machine Learning, Deep Learning, OpenCV - Top 11% (298/2943 competitors, Deep Learning).</li>
+			</ul>
+			</p>
+			
+			<p style="color:blue;font-size:20px;"><strong>Big Data Projects</strong></p>
+			<p><strong>AWS Data Lake Automation (Serverless): </strong> Developed automated cloud formation template to create data lake which ingests the customer’s data, maps it into an analysis-ready structure and makes this data and dashboards available to end-users. Tools Used: AWS Services which includes Cloud Formation, S3, Kinesis, Redshift cluster, Tableau, EMR(Spark/Hadoop), SageMaker, Amazon Athena, Amazon Kinesis, Amazon QuickSight, Amazon Simple Storage Services (S3), AWS Big Data, AWS Database Migration Service, AWS Glue, AWS Lambda. </p>
+			<p><strong>BigData Architecture: </strong>Hands-on experience, working on Apache Hadoop ecosystem components like MapReduce, HDFS, HBase, Hive, Sqoop, Pig, Oozie, Zookeeper, Flume, Spark, Python and EC2 cloud computing with AWS. Build Architecture from scratch to store the dataset from twitter to Hadoop and then perform data analysis using spark/pyspark. (Hadoop, Spark, NiFi, Oozie). </p>
+			<ul>
+			  <li>Used Sqoop to import data from different RDBMS systems like MySQL, Oracle and loaded into HDFS. Developed Map-Reduce programs to clean and aggregate the data. </li>
+			  <li>Developed workflow in Oozie to manage and schedule jobs on Hadoop cluster to trigger daily, weekly and monthly batch cycles. Extensive knowledge of working on NiFi.</li>
+			</ul> 
+			
+			<p style="color:blue;font-size:20px;"><strong>Software Development Projects</strong></p>
+			<p><strong>Software Development- UST MicroGrid Monitoring and Controller: </strong>Software Development Project Work. Identifying requirements and developing MicroGrid Devices Controlling System. Angular CLI, ReactJS, Java Spring, MySQL, Linux, Ruby, InfluxDB. <a href="https://www.stthomas.edu/microgrid/about-us/">#ResearchWork</a></p>
+			
+			<ul>
+			  <li>Responsible for understanding the scope of project and requirement gathering. </li>
+			  <li>Used Tomcat web server for development purpose.</li>
+			  <li>Involved in creation of Test Cases for Unit Testing.</li>
+			  <li>Developed application using Eclipse and used to build and deploy a tool like Maven.</li>
+			  <li>Used Log4J to print logging, debugging, warning, info on the server console.</li>
+			</ul> 
+			<p><strong>Django Web Application: </strong>Created Graduate Program in Software department-wide Web-based Software Request System. (Python, Django, MySQL)</p>
+			<p><strong>Audio Tagging Application: </strong>Implemented Audio Tagging application using various Natural Language Processing techniques and Django Web Framework. (BERT, Google Speech to Text, Google Content Classifier, Python, Django, MySQL, GPUs). </p>
+			
+          </div><!-- /.blog-post -->
+			<hr>
+          <div class="blog-post">
+            <h2 class="blog-post-title"><a href="http://minneanalytics.org/minnemudac/">Minnemudac 2019</a></h2>
+            <p class="blog-post-meta"><strong>Sep, 2019 - Dec 2019</strong></p>
+			This competition was hosted by <a href="http://minneanalytics.org/about-us/">Minneanalytics</a> and <a href="http://www.mudac.org/mankato/">Mudac</a> is well known nonprofit organization serving the data science and emerging technology community in Minnesota, the Upper Midwest. Datasets were sponsored by <a href="https://www.farmfemmes.com/">Farm Femme(Soybean Commodity Data Sponsor)</a> and advised participant to freely use openly available dataset to optimize model predictions. Challenge was to predict 3 different Soybean Contract End of the Day prices for the month of November 2019.
+			<hr>
+            <p><strong>Multivariate Time Series LSTM Predictor:</strong> Learned and perfomed detailed analysis from scratch to produce best performing model. Used ideas from Stats, ML,Deep learnig and Commodity market to produce Multivariate Prediction Model. Our Student Team from St. Thomas GPS participated in two consecutive MinneAnalytics competitions (MinneMUDAC and FastCon 2019) and our work was one of the most competitive among the top performers leading most of the teams behind in predictions and technical Design Approach. We were ranked second based on our 15 days prediction for 3 different Soybean's future contract price. 
+ 
+            <ul>
+            <li><a href="http://www.mudac.org/minnemudac/ShowPredictions.php">FastCon 2019 Results (Team G23)</a></li>
+			<li><a href="https://minneanalytics.org/announcing-the-winners-of-the-minnemudac-2019-student-data-science-challenge/">MinneMUDAC 2019 Results (Team G23)</a></li>
+			<li><a href="http://bit.ly/2Yh63Uz">Machine Learning Pipeline - 5 Days Soybeans Predictions Web Page - In Development</a> </p></li>
+            </ul>
+            <p>For more information. <a href="https://speakerdeck.com/hgamit/soybean-futures-prices-predictions">Click Here</a></p>
+          </div><!-- /.blog-post -->
+
+			<hr>
+          <div class="blog-post">
+            <h2 class="blog-post-title"><a href="https://www.kaggle.com/c/understanding_cloud_organization">Semantic Image Segmentation</a></h2>
+            <p class="blog-post-meta"><strong>Aug, 2019 - Dec 2019</strong></p>
+			Designed and Developed Computer Vision Project to complete Arificial Intelligence Credit Class. This project was meant to familiarize and apply understanding from DL and ML methods solving Semantic Image Segmentation Problem.Our team worked on different applications of computer vision techniques and chose Semantic segmentation to learn granualrities of designing Neural Network Architecture using Pytorch.
+			<hr>
+			<p><strong>Semantic Segmentation:</strong> Identify the object category of each pixel for every known object within an image. Here, Labels are class-aware.
+<div class="text-center">
+            <img class="card-img-right flex-auto d-none d-md-block img-fluid" style="margin-top: 40px;margin-right: 30px; max-width: 80%; height: auto;" alt="Thumbnail [200x250]" src="images/base/segm.png" />
+          </div></p>
+            <p><strong><a href="https://heartbeat.fritz.ai/deep-learning-for-image-segmentation-u-net-architecture-ff17f6e4c1cf">Unet Architecture:</a></strong> U-Net is Fully Connected Network that consists of a contracting path (left side, learns classification) and an expansive path (right side, learns segmantation masks).</p>
+			<p><strong><a href="https://ai.facebook.com/tools/pytorch/">Pytorch:</a></strong> PyTorch is an open source deep learning framework built to be flexible and modular for research, with the stability and support needed for production deployment. It enables fast, flexible experimentation through a tape-based autograd system designed for immediate and python-like execution.</p>
+	
+            <p>For more information. <a href="https://speakerdeck.com/hgamit/semantic-segmentation">Click Here</a></p>
+          </div><!-- /.blog-post -->
+			<hr>
+          <div class="blog-post">
+            <h2 class="blog-post-title">Unsupervised Contextual Clustering of Abstracts</h2>
+            <p class="blog-post-meta"><strong>Sep, 2019 - Present</strong></p>
+			This competition is hosted by <a href="https://www.sas.com/en_us/events/sas-global-forum/program/awards-academic-programs.html">SAS</a> called SAS Global Forum 2020. The Sponsors wish to award outstanding student innovators with the opportunity to attend SAS Global Forum 2020 where they will have an opportunity to learn, network, and exchange ideas and experiences. This study utilizes publicly available data from the <a href="https://www.research.gov/common/webapi/awardapisearch-v1.htm">National Science Foundation (NSF) Web Application Programming Interface (API)</a>. We are in process of producing context through BERT Language Model.
+			<hr>
+            <p>In this paper, various machine learning techniques are demonstrated to explore, analyze and recommend similar proposal abstracts to aid the NSF or Awardee with the Merit Review Process. These techniques extract textual context and group it with similar context. The goal of the analysis was to utilize the unsupervised learning algorithms to embed NSF funding proposal abstracts text into vector space. Once vectorized, the abstracts were grouped together using K-means clustering. These techniques together proved to be successful at grouping similar proposals together and could be used to find similar proposals to newly submitted NSF funding proposals.
+			</p>
+			<p><strong><a href="https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html">BERT Language Model:</a></strong> BERT builds upon recent work in pre-training contextual representations — including Semi-supervised Sequence Learning, Generative Pre-Training, ELMo, and ULMFit. However, unlike these previous models, BERT is the first deeply bidirectional, unsupervised language representation, pre-trained using only a plain text corpus.</p>
+
+            <p>For more information. <a href="#">Click Here</a></p>
+          </div><!-- /.blog-post -->
+		  
+		    <div class="blog-post">
+            <h2 class="blog-post-title"><a href="#">Other Projects</a></h2>
+            <p class="blog-post-meta"><strong>Sep, 2017 - Present</strong></p>
+			This lists my additional projects which were done by me to build statistics and machine learning skills.
+			<hr>
+			<p>
+            Recent Works (Esc to view a list of slides and 125% zoom browser to view material clearly):
+			<ul>
+			
+            <li><a href="http://bit.ly/2JpMuES">InsideHired Fundraising DataSet Exploration</a></li>
+			<li><a href="">AIM Consulting Hackathon:</a> Won the competition. Designed and developed machine learning classifier on a highly imbalanced dataset. (Python, SNS, Pandas, Machine Learning)</li>
+			<li><a href="http://bit.ly/2JUK6Wv">Kickstarter CrowdFunding Dataset(ML Model)</a></li>
+			<li><a href="http://bit.ly/2Yh63Uz">Machine Learning Pipeline - 30 Days Soybeans Predictions Web Page - In Development</a> </li>
+			<li>Summer Fellow at <a href="https://ece.iisc.ac.in/">IISc Bangalore</a>: Implemented Wireless Security Environment with Java Glomosim Library and redesigned Security structure to optimize WPA Compatible Network. (Java) </li>
+            </ul></p>
+            <p>For more information. <a href="https://speakerdeck.com/hgamit/">Click Here</a></p>
+          </div> <!--/.blog-post -->
+
+			<hr>
+          <div class="blog-post">
+            <h2 class="blog-post-title"><a href="https://www.amphora.net/">Amphora Inc.</a></h2>
+            <p class="blog-post-meta"><strong>Feb 2012 – May 2017</strong></p>
+
+            <p>Worked as a backend automation engineer and applications developer. This involved </p>
+			<hr> 
+            <ul>
+			<li>Responsibilities consisted of Requirements gathering, estimating change requests, Designing and developing code, scripting database stored procedures and functions, Participate in client meetings. Primary technologies involved Java, .NET, Web Services, SQL, Jira, Git, DevOps, CI/CD, Worked with oil trading clients like Mercuria Energy, Noble Group, Arcadia, Eni..</li>
+			<li><strong>Notifications:</strong> Developed service for sending an email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch processing for software delivery etc.(Java, MS SQL)</li>
+			<li><strong>Trade Aggregator:</strong> Simplified bulk data processing and injection service from global exchanges to CTRM and provides preprocessed data for application users. (Unix/Linux, Java, MS SQL)</li>
+			<li><strong>Workflows:</strong> Outlined and improved Apache Ant workflow to create and manage build and testing pipelines leveraging automation to expedite development productivity. (JavaScript)</li>
+			<li><strong>Remote Application Services Management Tool:</strong> Improved multi-server application service control by building a new application for software product allowing easy handling over multiple remote server environments including DB Scripts Automation. (C#, MS SQL)</li>
+			<li><strong>Technology Migration:</strong> Lead team and Effectively implemented GitHub/SCRUM migration process for the development team, which helped developers smoothly transition code repository from TFS to Git. (Git, Subversion, TFS)</li>
+            </ul>
+			<hr>
+          </div><!-- /.blog-post 
+		  
+		  •	Gathering and analyzing user requirements  
+•	Estimation and Sprint planning 
+•	Designing application system models 
+•	Developing/Refining testing application units  
+•	Deployment  
+•	Maintaining CI/CD pipelines 
+•	Participating in Sprint Review  
+•	Responding to outages 
+•	Worked on different technologies like Java, .NET, Web Services, SQL, Microsoft Azure, Node.js, Git, Jira, Angular.js. 
+
+
+          <nav class="blog-pagination">
+            <a class="btn btn-outline-primary" href="#">Older</a>
+            <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
+          </nav>-->
+
+        </div><!-- /.blog-main -->
+
+      </div><!-- /.row -->
+
+    </main>
+
+
+
+<footer class="footer">
+      <div class="container-fluid">
+	  <p class= "text-center">
+        <span class="text-muted">
+        <a onclick="trackOutboundLink('https://www.linkedin.com/in/himanshu-gamit-profile/');" href="https://www.linkedin.com/in/himanshu-gamit-profile/" target="_blank" alt="LinkedIn">LinkedIn</a>
+        |
+        <a onclick="trackOutboundLink('https://speakerdeck.com/hgamit');" href="https://speakerdeck.com/hgamit" target="_blank" alt="Speaker Deck">Speaker Deck</a>
+        |
+        <a onclick="trackOutboundLink('mailto:himanshu.gamit@stthomas.edu');" href="mailto:himanshu.gamit@stthomas.edu" target="_blank" alt="email">Email</a>
+     </span>
+      </p>
+	  </div>
+    </footer>
+
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
