@@ -1,89 +1,152 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me - Himanshu Gamit</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="script.js" defer></script>
 
-    <title>About Me</title>
-	<script src="script.js"></script>
-<style>
-.content-section {
-  display: none;
-} 
-</style>
- </head>
-  <body>
-<div class="container" class="col-sm-8">
-<nav class="navbar navbar-light bg-light justify-content-between">
-  <a class="navbar-brand" href="index.html"><strong>Himanshu Gamit</strong></a>
-	<ul class="nav nav-tabs card-header-tabs justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active" href="index.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a id="header1" class="nav-link" href="projects.html">Projects</a>
-      </li>
-    <!--  <li class="nav-item">
-        <a class="nav-link" href="blogs.html">Blog</a>
-      </li> -->
-    </ul>
-</nav>
-<section class="jumbotron justify-content-md text-justify">
- <img src="images/IMG_1029_Profile1.jpg" class="img-fluid" alt="Responsive image"/>
-<div class="row">
-  <div class="col-sm-auto">
-  <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-			 <p class="card-text mb-auto">In the intricate dance between data and business success, I've honed my expertise as a Data and AI Strategic Leader, navigating the realms of complexities of enterprise technology platforms and teams. My journey is marked by translating complex data landscapes into strategic advantages, shaping decisions at every turn. From architecting AI-driven solutions to orchestrating seamless collaborations, I've led global tech transformations that generated millions in business value by turning complex data ecosystems into actionable platforms (Data, Analytics, and AI).
- <!--<img class="card-img-right flex-auto d-none d-md-block img-fluid" style="  margin-left: 10px; margin-top: 10px; float: right; display: block; max-width: 18%; height: auto;" alt="Thumbnail [200x250]" src="images/base/Deep.png" />-->
-			 <br/><br/>
-🔹 Drove $6 M+ in annual savings and revenue enablement by streamlining retail and marketing analytics for Fortune 100 retailers (Amazon eCommerce Platform)<br/>
-🔹 Built and scaled data analytics and science platforms adopted globally, enabling strategic decisions and sustainable growth.<br/>
-🔹 Led high-performing, global teams (10+ engineers, analysts, and product leaders) across North America, Europe, LATAM, and APAC.<br/>
-🔹 Domain Expertise: Sales, Retail, Operations, Marketing, HR, IoT, Healthcare, Medical Devices, Real Estate.<br/><br/>
-Successfully delivered enterprise-scale digital solutions at the intersection of software engineering, product delivery, and modern architecture from IoT to marketing analytics. Recognized thought leader and trusted advisor to Leadership.
- <br/><br/> 
-He lives in Minneapolis, MN. He likes bowling, traveling, and exploring cities across the USA. In his free time, he likes learning new skills, making new connections, or go for biking/Hiking.<br/> <br/> 
-🎤 Speaker at events | Avid Innovator | Passionate Road tripper across the U.S. 🛣️</p>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+      line-height: 1.6;
+    }
 
-            </div>
-			             			<div class="text-center" style="align-items: center;">
-           
-          </div>
-</div>
+    .profile-img {
+      float: left;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border-radius: 40%;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 650px) {
+      .profile-img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+      }
+    }
+
+    .card-section {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .cta-button {
+      margin-top: 1.5rem;
+    }
+
+    footer a {
+      color: #6c757d;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+    <div class="container justify-content-between">
+      <a class="navbar-brand fw-bold" href="index.html">Himanshu Gamit</a>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a id="header1" class="nav-link" href="projects.html">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <div class="card-section">
+<!-- Call-to-Action Section with Custom Color and Larger Image -->
+<section style="background-color: #004b6b;" class="text-white py-5 mb-4">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Profile Image -->
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <img src="images/Profile.jpg" alt="Himanshu Gamit" 
+             class="img-fluid rounded-circle shadow"
+             style="width: 220px; height: 220px; object-fit: cover;">
+      </div>
+
+      <!-- CTA Content -->
+      <div class="col-md-8 text-center text-md-start">
+        <h1 class="display-6 fw-bold mb-3">Ready to Drive Your Data and AI Strategy Forward?</h1>
+        <p class="lead mb-4">
+          I help organizations design and scale next-gen AI solutions that act, adapt, and accelerate outcomes. Let’s connect to explore how agentic AI and strategic data platforms can drive measurable business impact.
+        </p>
+        <a href="mailto:hmnshu@gmail.com" class="btn btn-light btn-lg">Get in Touch</a>
+      </div>
+
+    </div>
   </div>
-</div>
-
-  </section>
+</section>
 
 
-
-<footer class="footer">
-      <div class="container-fluid">
-	  <p class= "text-center">
-        <span class="text-muted">
-        <a onclick="trackOutboundLink('https://www.linkedin.com/in/himanshu-gamit-profile/');" href="https://www.linkedin.com/in/himanshu-gamit-profile/" target="_blank" alt="LinkedIn">LinkedIn</a>
-        |
-        <a onclick="trackOutboundLink('https://speakerdeck.com/hgamit');" href="https://speakerdeck.com/hgamit" target="_blank" alt="Speaker Deck">Speaker Deck</a>
-        |
-        <a onclick="trackOutboundLink('mailto:himanshu.gamit@stthomas.edu');" href="mailto:himanshu.gamit@stthomas.edu" target="_blank" alt="email">Email</a>
-     </span>
+      <p>
+        I'm a <strong>Data and AI Strategic Leader</strong> with a passion for turning complex enterprise technology ecosystems into secure and sustainable platforms.
       </p>
-	  </div>
-    </footer>
 
-</div>
+      <ul>
+        <li><strong>$10M+ Annual Revenue:</strong> Delivered through data platform transformation for Amazon sellers, Real Estate Deals and Cost Savings.</li>
+        <li><strong>Global Reach:</strong> Built and scaled data science and engineering platforms used worldwide.</li>
+        <li><strong>Leadership:</strong> Managed cross-functional teams across North America, LATAM, APAC, and Europe.</li>
+        <li><strong>Domain Expertise:</strong> Retail, Marketing, Sales, IoT, Healthcare, HR, Real Estate.</li>
+      </ul>
 
+      <p>
+        I specialize in delivering enterprise digital platforms at the intersection of software, AI, and data infrastructure. As a trusted advisor to leadership, I bring vision, execution and value together.
+      </p>
 
+      <p>
+        Based in Minneapolis, MN. Outside work, I enjoy <em>bowling, traveling, hiking, biking</em> - and speaking at tech events across the U.S.
+      </p>
+    </div>
+	  
+	  
+	  
+	  
+    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+	
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-light py-3 mt-5">
+    <div class="container text-center">
+      <span class="text-muted">
+        <a onclick="trackOutboundLink('https://www.linkedin.com/in/himanshu-gamit-profile/');" href="https://www.linkedin.com/in/himanshu-gamit-profile/" target="_blank">LinkedIn</a>
+        |
+        <a onclick="trackOutboundLink('https://speakerdeck.com/hgamit');" href="https://speakerdeck.com/hgamit" target="_blank">Speaker Deck</a>
+        |
+        <a onclick="trackOutboundLink('mailto:himanshu.gamit@stthomas.edu');" href="mailto:himanshu.gamit@stthomas.edu" target="_blank">Email</a>
+      </span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

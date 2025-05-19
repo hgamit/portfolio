@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me - Himanshu Gamit</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+      line-height: 1.6;
+    }
+
+    .profile-img {
+      float: left;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border-radius: 40%;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 650px) {
+      .profile-img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+      }
+    }
+
+    .card-section {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .cta-button {
+      margin-top: 1.5rem;
+    }
+
+    footer a {
+      color: #6c757d;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+    <div class="container justify-content-between">
+      <a class="navbar-brand fw-bold" href="index.html">Himanshu Gamit</a>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a id="header1" class="nav-link" href="projects.html">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <div class="card-section">
+<!-- Call-to-Action Section with Custom Color and Larger Image -->
+<section style="background-color: #004b6b;" class="text-white py-5 mb-4">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Profile Image -->
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <img src="images/Profile.jpg" alt="Himanshu Gamit" 
+             class="img-fluid rounded-circle shadow"
+             style="width: 220px; height: 220px; object-fit: cover;">
+      </div>
+
+      <!-- CTA Content -->
+      <div class="col-md-8 text-center text-md-start">
+        <h1 class="display-6 fw-bold mb-3">Ready to Drive Your Data and AI Strategy Forward?</h1>
+        <p class="lead mb-4">
+          I help organizations design and scale next-gen AI solutions that act, adapt, and accelerate outcomes. Let’s connect to explore how agentic AI and strategic data platforms can drive measurable business impact.
+        </p>
+        <a href="mailto:hmnshu@gmail.com" class="btn btn-light btn-lg">Get in Touch</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+      <p>
+        I'm a <strong>Data and AI Strategic Leader</strong> with a passion for turning complex enterprise technology ecosystems into secure and sustainable platforms.
+      </p>
+
+      <ul>
+        <li><strong>$10M+ Annual Revenue:</strong> Delivered through data platform transformation for Amazon sellers, Real Estate Deals and Cost Savings.</li>
+        <li><strong>Global Reach:</strong> Built and scaled data science and engineering platforms used worldwide.</li>
+        <li><strong>Leadership:</strong> Managed cross-functional teams across North America, LATAM, APAC, and Europe.</li>
+        <li><strong>Domain Expertise:</strong> Retail, Marketing, Sales, IoT, Healthcare, HR, Real Estate.</li>
+      </ul>
+
+      <p>
+        I specialize in delivering enterprise digital platforms at the intersection of software, AI, and data infrastructure. As a trusted advisor to leadership, I bring vision, execution and value together.
+      </p>
+
+      <p>
+        Based in Minneapolis, MN. Outside work, I enjoy <em>bowling, traveling, hiking, biking</em> - and speaking at tech events across the U.S.
+      </p>
+    </div>
+	<br/>
+	<h2 class="mb-4 text-center">All Projects</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="project-header">
+              <h5 class="card-title"><a href="https://www.bostonscientific.com/en-US/Home.html" target="_blank" class="text-decoration-none">Boston Scientific</a></h5>
+              <span class="timeline">Nov 2022 – Present</span>
+            </div>
+            <p class="card-text">Launched global predictive analytics and self-service platforms. Supported executive decisions with $2.5M+ in annual time savings. Spearheaded HR analytics governance and strategy.</p>
+            <p class="highlight-title">Highlights & Skills:</p>
+            <ul>
+              <li>Led cross-functional team (10+), improving productivity 40%</li>
+              <li>Mentored global analysts, engineers, and researchers</li>
+              <li>Stakeholder alignment, strategic program planning</li>
+              <li>Technologies: Tableau, AWS, Snowflake, Python, SQL</li>
+            </ul>
+            <div>
+              <span class="badge bg-primary tech-badge">Leadership</span>
+              <span class="badge bg-success tech-badge">Strategy</span>
+              <span class="badge bg-secondary tech-badge">Data Governance</span>
+              <span class="badge bg-info text-dark tech-badge">AI/ML</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="project-header">
+              <h5 class="card-title"><a href="https://crowdcapital.io/" target="_blank" class="text-decoration-none">Crowd Capital</a></h5>
+              <span class="timeline">Mar 2022 – Oct 2022</span>
+            </div>
+            <p class="card-text">Developed scalable scoring modules for real estate analytics. Boosted team productivity and optimized data models for strategic investment decisions.</p>
+            <p class="highlight-title">Highlights & Skills:</p>
+            <ul>
+              <li>Mentored cross-functional engineering team</li>
+              <li>Built ML-based property scoring pipeline</li>
+              <li>Stakeholder collaboration, performance optimization</li>
+              <li>Technologies: Python, Spark, SQL, AWS</li>
+            </ul>
+            <div>
+              <span class="badge bg-primary tech-badge">Mentorship</span>
+              <span class="badge bg-success tech-badge">Analytics</span>
+              <span class="badge bg-warning text-dark tech-badge">Big Data</span>
+              <span class="badge bg-dark tech-badge">AI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="project-header">
+              <h5 class="card-title"><a href="https://emeritus.org/" target="_blank" class="text-decoration-none">Emeritus</a></h5>
+              <span class="timeline">Oct 2021 – Apr 2022</span>
+            </div>
+            <p class="card-text">Supported Data Engineering curriculum and academic content delivery. Worked on tool integration and module troubleshooting with education teams.</p>
+            <p class="highlight-title">Highlights & Skills:</p>
+            <ul>
+              <li>Reviewed and maintained learning modules and tools</li>
+              <li>Provided technical expertise for Data Engineering workflows</li>
+              <li>Worked with faculty and tech support teams</li>
+              <li>Technologies: SQL, Python, Educational Tools</li>
+            </ul>
+            <div>
+              <span class="badge bg-info text-dark tech-badge">Curriculum Design</span>
+              <span class="badge bg-success tech-badge">Data Engineering</span>
+              <span class="badge bg-secondary tech-badge">Support</span>
+              <span class="badge bg-dark tech-badge">SQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="project-header">
+              <h5 class="card-title"><a href="https://www.123goecom.com/" target="_blank" class="text-decoration-none">Global Overview</a></h5>
+              <span class="timeline">Oct 2020 – Feb 2022</span>
+            </div>
+            <p class="card-text">Built and optimized marketing spend models and customer acquisition funnels across advertising platforms. Led platform transitions and team productivity enhancements.</p>
+            <p class="highlight-title">Highlights & Skills:</p>
+            <ul>
+              <li>Led data engineering projects and mentored junior engineers</li>
+              <li>Consolidated legacy systems and enhanced ETL pipelines</li>
+              <li>Delivered cost savings and platform improvements</li>
+              <li>Technologies: AWS, Tableau, SQL, Python, Spark</li>
+            </ul>
+            <div>
+              <span class="badge bg-warning text-dark tech-badge">ETL</span>
+              <span class="badge bg-success tech-badge">Mentorship</span>
+              <span class="badge bg-primary tech-badge">Marketing Analytics</span>
+              <span class="badge bg-dark tech-badge">Spark</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="project-header">
+              <h5 class="card-title"><a href="https://cytilife.com/" target="_blank" class="text-decoration-none">Cytilife Inc.</a></h5>
+              <span class="timeline">Feb 2019 – Sep 2020</span>
+            </div>
+            <p class="card-text">Built IoT analytics pipelines and forecasting models for smart campuses. Delivered real-time dashboards and ML models for usage insights and anomaly detection.</p>
+            <p class="highlight-title">Highlights & Skills:</p>
+            <ul>
+              <li>Developed forecasting pipelines and visual dashboards</li>
+              <li>Led real-time data integrations with cloud-based systems</li>
+              <li>Worked with product, data science, and engineering teams</li>
+              <li>Technologies: AWS, Redshift, Python, Quicksight, ML</li>
+            </ul>
+            <div>
+              <span class="badge bg-success tech-badge">IoT</span>
+              <span class="badge bg-primary tech-badge">Forecasting</span>
+              <span class="badge bg-info text-dark tech-badge">Dashboards</span>
+              <span class="badge bg-dark tech-badge">ML</span>
+            </div>
+          </div>
+        </div>
+      </div>
+	       <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="project-header">
+              <h5 class="card-title"><a href="https://www.stthomas.edu/" target="_blank" class="text-decoration-none">University of St. Thomas</a></h5>
+              <span class="timeline">2018 – Present</span>
+            </div>
+            <p class="card-text">Executed AI/ML research with publications at IEEE and SAS forums. Focused on NLP, clustering, and predictive modeling. Dual MS programs in Data Science and Software Management.</p>
+            <p class="highlight-title">Highlights & Skills:</p>
+            <ul>
+              <li>Won SAS Global Forum & MinneAnalytics competitions</li>
+              <li>Published and presented multiple AI/ML research studies</li>
+              <li>Courses: Big Data, NLP, Data Security, Visualization</li>
+              <li>Technologies: Python, PyTorch, BERT, SQL</li>
+            </ul>
+            <div>
+              <span class="badge bg-info text-dark tech-badge">Research</span>
+              <span class="badge bg-primary tech-badge">NLP</span>
+              <span class="badge bg-success tech-badge">Education</span>
+              <span class="badge bg-dark tech-badge">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="project-header">
+              <h5 class="card-title"><a href="https://www.amphora.net/" target="_blank" class="text-decoration-none">Amphora Inc.</a></h5>
+              <span class="timeline">Feb 2012 – May 2017</span>
+            </div>
+            <p class="card-text">Delivered backend automation, notifications, and CI/CD services for energy trading clients. Led DevOps transformations and optimized global delivery pipelines.</p>
+            <p class="highlight-title">Highlights & Skills:</p>
+            <ul>
+              <li>Implemented CI/CD tools and streamlined batch processing</li>
+              <li>Led backend Java development and SQL scripting</li>
+              <li>Collaborated with cross-geo clients (Europe, Asia, US)</li>
+              <li>Technologies: Java, .NET, SQL, Linux</li>
+            </ul>
+            <div>
+              <span class="badge bg-secondary tech-badge">DevOps</span>
+              <span class="badge bg-dark tech-badge">CI/CD</span>
+              <span class="badge bg-info text-dark tech-badge">Automation</span>
+              <span class="badge bg-primary tech-badge">Communication</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+	  
+	  
+	  
+	  
+    </div>
+
+	
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-light py-3 mt-5">
+    <div class="container text-center">
+      <span class="text-muted">
+        <a onclick="trackOutboundLink('https://www.linkedin.com/in/himanshu-gamit-profile/');" href="https://www.linkedin.com/in/himanshu-gamit-profile/" target="_blank">LinkedIn</a>
+        |
+        <a onclick="trackOutboundLink('https://speakerdeck.com/hgamit');" href="https://speakerdeck.com/hgamit" target="_blank">Speaker Deck</a>
+        |
+        <a onclick="trackOutboundLink('mailto:himanshu.gamit@stthomas.edu');" href="mailto:himanshu.gamit@stthomas.edu" target="_blank">Email</a>
+      </span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
