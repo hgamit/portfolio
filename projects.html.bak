@@ -167,7 +167,7 @@ with less Human Intervention) #Reason Automation Migration and implementation. <
 
           <div class="blog-post">
 		   <hr>
-            <h2 class="blog-post-title"><a href="http://cytilife.com/">Cytilife Inc.</a></h2>
+            <h2 class="blog-post-title"><a href="">Cytilife Inc.</a></h2>
             <p class="blog-post-meta"><strong>Nov, 2019 - Present</strong></p>
             <p><strong>Analytical Pipeline (AWS Web Services Stack:</strong> Built robust analytical infrastructure connecting structured and unstructured data sources from data sources such as (RDS, Click Stream and logs) to AWS Redshift, AWS EMR for ease of use by different analysts using Pandas, AWS Athena and QuickSight. (Amazon Kinesis Data Firehouse, AWS S3, AWS Lamda, Glue, DMS, Athena).</p>
 			<p><strong>Cloud Computing: </strong> The AWS infrastructure for the real-time data analysis that involves visualizing and Forecasting Resource Utilization (100K to Millions of rows) of processed data on AWS S3. This helps the administration to investigate business insights from campus resource usage from IoT and Applications Data to determine space and equipment’s demands to take strategic budgeting and resource requirements decisions. (Python, SQL, Visualization).</p>
