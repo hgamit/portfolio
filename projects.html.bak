@@ -1,111 +1,211 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Himanshu Gamit</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="script.js" defer></script>
 
-    <title>Projects</title>
-	<script src="script.js"></script>
-<style>
-.content-section {
-  display: none;
-} 
-</style>
- </head>
-  <body>
-<div class="container" class="col-sm-8">
-<nav class="navbar navbar-light bg-light justify-content-between">
-  <a class="navbar-brand" href="index.html"><strong>Himanshu Gamit</strong></a>
-	<ul class="nav nav-tabs card-header-tabs justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="projects.html">Projects</a>
-      </li>
-    <!--  <li class="nav-item">
-        <a class="nav-link" href="blogs.html">Blog</a>
-      </li>
-	        <li class="nav-item">
-        <a class="nav-link"  href="slider.html">Slider</a>
-      </li> -->
-    </ul>
-</nav>
-<main class="container text-justify" role="main">
-      <div class="row">
-        <div class="col-md-auto blog-main">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    .project-section {
+      margin-bottom: 3rem;
+    }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+    }
+    .project-header h4 {
+      margin: 0;
+    }
+    .project-header .timeline {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+    .tags {
+      margin-top: 1rem;
+    }
+    .tag {
+      display: inline-block;
+      padding: 0.3rem 0.75rem;
+      border-radius: 0.5rem;
+      font-size: 0.85rem;
+      margin: 0.25rem;
+      color: #fff;
+    }
+    .tag[data-skill="Leadership"] { background-color: #0d6efd; }
+    .tag[data-skill="Strategy"] { background-color: #0b7285; }
+    .tag[data-skill="Data Governance"] { background-color: #6c757d; }
+    .tag[data-skill="AI/ML"] { background-color: #343a40; }
+    .tag[data-skill="Mentorship"] { background-color: #198754; }
+    .tag[data-skill="Analytics"] { background-color: #00539C;}
+    .tag[data-skill="Big Data"] { background-color: #641e16;}
+	.tag[data-skill="Data Engineering"] { background-color: #4a235a; }
+    .tag[data-skill="AI"] { background-color: #6f42c1; }
+	.tag[data-skill="Research"] { background-color: #a61e4d; }
+	.tag[data-skill="Competition"] { background-color: #862e9c; }
 
-         <div class="blog-post">
-		   <hr>
-            <h2 class="blog-post-title"><a href="https://www.bostonscientific.com/en-US/Home.html">Boston Scientific</a></h2>
-           
+    .filter-bar {
+      margin-bottom: 2rem;
+    }
+    .filter-bar .btn {
+      margin: 0.2rem;
+    }
+    footer {
+      background-color: #fff;
+      border-top: 1px solid #dee2e6;
+      padding: 1rem 0;
+      margin-top: 4rem;
+    }
+    footer a {
+      color: #6c757d;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">Himanshu Gamit</a>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="projects.html">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
- <p class="blog-post-meta"><strong>Sr. Data Scientist/Engineer : Nov, 2022 - Present</strong></p>
+  <main class="container">
+    <div class="filter-bar text-center">
+      <strong>Filter by Skill:</strong>
+      <button class="btn btn-outline-dark btn-sm">All</button>
+      <button class="btn btn-outline-dark btn-sm">Leadership</button>
+      <button class="btn btn-outline-dark btn-sm">Strategy</button>
+      <button class="btn btn-outline-dark btn-sm">Data Governance</button>
+	  <button class="btn btn-outline-dark btn-sm">Data Engineering</button>
+      <button class="btn btn-outline-dark btn-sm">Big Data</button>
+      <button class="btn btn-outline-dark btn-sm">AI/ML</button>
+      <button class="btn btn-outline-dark btn-sm">Analytics</button>
+      <button class="btn btn-outline-dark btn-sm">Mentorship</button>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+
+        <div class="project-section">
+          <div class="project-header">
+           <h4><a href="https://www.bostonscientific.com/en-US/Home.html" target="_blank" class="text-decoration-none">Boston Scientific</a></h4>
+            <span class="timeline">Nov 2022 – Present | MN, USA</span>
+          </div>
+		  <p class="mb-1"><em>Global Talent Analytics Platform Owner</em></p>
+          <p>Launched global self-service data analytics platform. Supported executive decisions with $1M+ in annual time savings. Spearheaded HR analytics governance and strategy.</p>
+          <ul>
+            <li>Subject matter expert (SME) in fostering a high-performance data culture, managing and mentoring cross-
+functional teams (10+ analysts, researchers, domain experts, engineers, scientists, and leaders), increasing team productivity by 40% and reducing data science and analytics project backlog by 20% within 12 months. </li>
+<li>Launched self-service analytics and predictive solutions (Tableau, Notifications, data automation, Forecasting, Insights Recommendations) across the org (North America, EMEA, APAC, LATAM), improved executive decision- making speed and reduced ad-hoc reporting requests, totaling $1M in time savings.</li>
+Analytical tools: AWS, SQL, Python, Tableau, Snowflake, ETL, Storage, AI/ML, RPA, Automated data pipelines. </li>
+<li>Facilitated strategic prioritization meetings with Steerco, Program, HR, Finance, and IT partners to assess the effort, value, and urgency of projects focused on utilizing data, machine learning, and AI techniques to improve the
+organization's talent analytics capabilities.</li>
+<li>Advised leaders, providing data-backed solutions and partnered with executives at all levels and HR leadership to deliver actionable insights, analyzing organizational health (headcount trends, growth
+forecast, hiring, internal mobility, DE&I, and employee experience) to support strategic business decisions.</li>
+<li>Owned the governance of HR data and reporting methodologies, ensuring consistent data definitions, metrics
+alignment, and 100% compliance with privacy policies.</li>
+            <li>Technologies: Tableau, AWS, Snowflake, Python, SQL</li>
+          </ul>
+		  <p class="mb-1"><em>Sr. Data Scientist/Engineer (Consultant)</em></p>
+		  <ul>
+		  <li>Led the strategic development of analytics and data platforms for Cardiology Sales Operations(Cardiac Rhythm Management, Atrial Fibrillation, and Interventional Cardiology Therapies), establishing a governance framework that improved data integrity, drove innovation, and made insights accessible to businesses, improving decision-making by 40%. (AWS, Alteryx, Snowflake, Python, SQL, and Tableau) </li>
+		  <li>Investigate and resolve data inconsistencies, ensuring accuracy and reliability across several data sources.</li>
+          </ul>
+		  
+          <div class="tags">
+            <span class="tag" data-skill="Leadership">Leadership</span>
+            <span class="tag" data-skill="Strategy">Strategy</span>
+            <span class="tag" data-skill="Data Governance">Data Governance</span>
+            <span class="tag" data-skill="AI/ML">AI/ML</span>
+			<span class="tag" data-skill="Mentorship">Mentorship</span>
+          </div>
+        </div>
+
+        <div class="project-section">
+          <div class="project-header">
+		  <h4><a href="https://crowdcapital.io/" target="_blank" class="text-decoration-none">Crowd Capital</a></h4>
+		  <span class="timeline">Mar 2022 – Oct 2022 | Remote</span>
+		  </div>
+		  <p class="mb-1"><em>Sr. Data Scientist/Engineer</em></p>
+          <p>Led the development of a scalable Property Scoring Module using AWS, Python, and Spark to optimize bid strategies,while mentoring a cross-functional team of analysts and engineers—boosting team productivity by 25%.</p>
+          <ul>
+			<li>Communicating with stakeholders to study domain and build data product requirements.</li>
+			<li>Supervised a team of two data engineers, helping them learn and grow.</li>
+			<li>Collaborated on Building robust Property Scoring Module Analysis and Developing Bid Optimization by querying big data. (CloudTech/AWS/Azure, BigData/Databricks, Python, Spark/Distributed Computing, Containers/Docker/Serverless, SQL REST APIs, CI/CD, Windows/UNIX Systems).</li>
+			<li>Implemented big data solutions that extract, transform, validate and load (ETL) real-state mortgage industry data and house industry analytics.</li>
+			<li>Illustrated property investigation team to engage, retain, and acquire new properties.</li>
+			<li>Assessed current processes and implemented data engineering and application development track for the organization.</li>
+			<li>Investigation of data inconsistencies for the team to understand the root cause and fix the issue.</li>
+            <li>Technologies: Python, Spark, SQL, AWS</li>
+          </ul>
+          <div class="tags">
+            <span class="tag" data-skill="Mentorship">Mentorship</span>
+            <span class="tag" data-skill="Analytics">Analytics</span>
+            <span class="tag" data-skill="Big Data">Big Data</span>
+            <span class="tag" data-skill="AI">AI</span>
+          </div>
+        </div>
+		
+		<div class="project-section">
+          <div class="project-header">
+            <h4><a href="https://emeritus.org/" target="_blank" class="text-decoration-none">Emeritus</a></h4>
+            <span class="timeline">Oct 2021 – Apr 2022 | Remote</span>
+          </div>
+		  <p class="mb-1"><em>Subject Matter Expert - Data Engineering</em></p>
+          <p>Supported Data Engineering curriculum and academic content delivery. Worked on tool integration and module troubleshooting with Professors and content management teams.</p>
+            <ul>
+			<li>Data Engineering Content development, modules review, and troubleshooting workflows.</li>
+			<li>Weekly Meetings, Videos reviews, Data Engineering Tools Troubleshooting, Team Engagement, and Support.</li>
+			<li>Manage and help deliver learning Module Content.</li>
+              <li>Technologies: SQL, Python, Educational Tools</li>
+            </ul>
+          <div class="tags">
+            <span class="tag" data-skill="Mentorship">Mentorship</span>
+            <span class="tag" data-skill="Data Engineering">Data Engineering</span>
+            <span class="tag" data-skill="Big Data">Big Data</span>
+          </div>
+        </div>
+		
+		
+		<!-- Other -->
+		<div class="project-section">
+		<div class="project-header">
+		<h4><a href="https://www.123goecom.com/" target="_blank" class="text-decoration-none">Global Overview</a></h4>
+        <span class="timeline">Oct, 2020 - Feb,2022 | Minnetonka, MN</span>
+         </div>
+		 <p class="mb-1"><em>Lead Data Engineer</em></p>
          
-<ul>
-<li>Formulate and execute a strategic plan for analytics technologies and platforms in Sales Operations at BSC. Involves administering/executing data lake development and Governance of the data analytics system (Snowflake, AWS).</li>
-<li>Partner with an Agile Product Team to manage dashboard products from opportunity identification, design, testing, deployment, and adoption to change management, hypercare, and helpdesk support. (SQL, Tableau, Tableau Prep, Alteryx).</li>
-<li>Governance and Security: Medical Devices Sales Data Review and Management at the user end. Data Hierarchy and Alignment Management from the different sources of data. Tableau Data Reporting, Sales Rep Engagements, Data Visualizations, and User Permissions Control.</li>
-<li>Code solutions, in partnership with technical experts and developers, to produce actionable insights aligned with business requirements. (Python Snowflake, SQL)</li>
-<li>Collaborate with technical experts to translate Analysts clients needs into data modeling, computations, and dashboard design using agile methodologies.</li>
-<li>Assessed current processes and implemented data engineering and application development track for the organization.</li>
-<li>Investigation of data inconsistencies for the team to understand the root cause and fix the issue.</li>
-</ul>	
-          </div><!-- /.blog-post -->
-		  <div class="blog-post">
-		   <hr>
-            <h2 class="blog-post-title"><a href="https://crowdcapital.io/">Crowd Capital</a></h2>
-           
+		<ul>
+		<li>Led a team of three data engineers, helping them learn and grow. Development and Maintenance of Data engineering Projects.</li>
+		<li>Demonstrating leadership skills, evaluating current processes, and implementing data engineering and application development track for the organization.</li>
+		<li>Accomplished robust Marketing Spend Model (DSP, OTT, Search compared to Sales) Analysis and Developing Ecommerce Customer Acquisition Funnel by querying big data. MTA, cross channel optimization.</li>
+		<li>Integrated marketing team performs engagement, retention, acquisition, marketing efficiency, A/B testing</li>
+		</ul>	
 
- <p class="blog-post-meta"><strong>Sr. Data Engineer : Mar, 2022 - Oct, 2022</strong></p>
-         
-<ul>
-<li>Communicating with stakeholders to study domain and build data product requirements.</li>
-<li>Supervised a team of two data engineers, helping them learn and grow.</li>
-<li>Collaborated on Building robust Property Scoring Module Analysis and Developing Bid Optimization by querying big data. (CloudTech/AWS/Azure, BigData/Databricks, Python, Spark/Distributed Computing, Containers/Docker/Serverless, SQL REST APIs, CI/CD, Windows/UNIX Systems).</li>
-<li>Implemented big data solutions that extract, transform, validate and load (ETL) real-state mortgage industry data and house industry analytics.</li>
-<li>Illustrated property investigation team to engage, retain, and acquire new properties.</li>
-<li>Assessed current processes and implemented data engineering and application development track for the organization.</li>
-<li>Investigation of data inconsistencies for the team to understand the root cause and fix the issue.</li>
-</ul>	
-          </div><!-- /.blog-post -->
-
-
-
-          <div class="blog-post">
-		   <hr>
-            <h2 class="blog-post-title"><a href="https://emeritus.org/">Emeritus</a></h2>
-           
-
- <p class="blog-post-meta"><strong>Subject Matter Expert (Data Engineering) : Oct, 2021 - Apr,2022</strong></p>
-         
-<ul>
-<li>Data Engineering Content development, modules review, and troubleshooting workflows.</li>
-<li>Weekly Meetings, Videos reviews, Data Engineering Tools Troubleshooting, Team Engagement, and Support.</li>
-<li>Manage and help deliver learning Module Content.</li>
-</ul>	
-          </div><!-- /.blog-post -->
-
-
-          <div class="blog-post">
-		   <hr>
-            <h2 class="blog-post-title"><a href="https://www.123goecom.com/">Global Overview</a></h2>
-           
-
- <p class="blog-post-meta"><strong>Lead Data Engineer : Oct, 2021 - Feb,2022</strong></p>
-         
-<ul>
-<li>Led a team of three data engineers, helping them learn and grow. Development and Maintenance of Data engineering Projects.</li>
-<li>Demonstrating leadership skills, evaluating current processes, and implementing data engineering and application development track for the organization.</li>
-<li>Accomplished robust Marketing Spend Model (DSP, OTT, Search compared to Sales) Analysis and Developing Ecommerce Customer Acquisition Funnel by querying big data. MTA, cross channel optimization.</li>
-<li>Integrated marketing team performs engagement, retention, acquisition, marketing efficiency, A/B testing</li>
-</ul>	
-
-<p class="blog-post-meta"><strong>Data Engineer : Mar, 2021 - Oct, 2021</strong></p>
+		<p class="mb-1"><em>Data Engineer</em></p>
          
 <ul>
 <li><strong>Created robust analytical infrastructure:</strong> connecting structured and unstructured data sources from data 
@@ -142,9 +242,7 @@ Management - Access and Environment Management. </li>
 			
 </ul>	
 
-
-
-<p class="blog-post-meta"><strong>ETL Developer : Oct 2020 - Mar, 2021</strong></p>
+<p class="mb-1"><em>ETL Developer</em></p>
          
 <ul>
 <li>Fixed Database (data swamp) by building data warehouse system in about 3 months - Worked on 560+ Tables 
@@ -163,12 +261,24 @@ with less Human Intervention) #Reason Automation Migration and implementation. <
 			
 </ul>
 
-          </div><!-- /.blog-post -->
+          <div class="tags">
+            <span class="tag" data-skill="Leadership">Leadership</span>
+            <span class="tag" data-skill="Strategy">Strategy</span>
+            <span class="tag" data-skill="Data Governance">Data Governance</span>
+            <span class="tag" data-skill="Mentorship">Mentorship</span>
+            <span class="tag" data-skill="Data Engineering">Data Engineering</span>
+            <span class="tag" data-skill="Big Data">Big Data</span>
+          </div>
 
-          <div class="blog-post">
-		   <hr>
-            <h2 class="blog-post-title"><a href="">Cytilife Inc.</a></h2>
-            <p class="blog-post-meta"><strong>Nov, 2019 - Present</strong></p>
+ </div>
+
+		<div class="project-section">
+		<div class="project-header">
+		<h4><a href="" target="_blank" class="text-decoration-none">Cytilife Inc.</a></h4>
+		<span class="timeline">Mar 2022 – Oct 2022 | Minneapolis, MN</span>
+		</div>
+		<p class="mb-1"><em>Data Scientist</em></p>
+ 
             <p><strong>Analytical Pipeline (AWS Web Services Stack:</strong> Built robust analytical infrastructure connecting structured and unstructured data sources from data sources such as (RDS, Click Stream and logs) to AWS Redshift, AWS EMR for ease of use by different analysts using Pandas, AWS Athena and QuickSight. (Amazon Kinesis Data Firehouse, AWS S3, AWS Lamda, Glue, DMS, Athena).</p>
 			<p><strong>Cloud Computing: </strong> The AWS infrastructure for the real-time data analysis that involves visualizing and Forecasting Resource Utilization (100K to Millions of rows) of processed data on AWS S3. This helps the administration to investigate business insights from campus resource usage from IoT and Applications Data to determine space and equipment’s demands to take strategic budgeting and resource requirements decisions. (Python, SQL, Visualization).</p>
 			<p><strong>Data Warehousing: Evaluating and Performing Grain Evaluation: </strong> Identified the granularity of each table and business process to drill down to very important dimensions and measures. Various scenarios and Questions got brainstormed to improve the intelligent system. (SQL, MySQL, Visualization).</p>
@@ -178,12 +288,24 @@ with less Human Intervention) #Reason Automation Migration and implementation. <
 			<ul>
 			  <li>Continuous coordination with QA team, production support team and deployment team. </li>
 			  <li>Worked on documenting all tables created to ensure all transactions are drafted properly.</li>
-			</ul> 
-          </div><!-- /.blog-post -->
-		   <div class="blog-post">
-		   <hr>
-            <h2 class="blog-post-title"><a href="https://www.stthomas.edu/academics/graduate/engineering/index.html">University of St. Thomas, St Paul.</a></h2>
-            <p class="blog-post-meta"><strong>Mar, 2018 - Present</strong></p>
+			</ul>
+
+          <div class="tags">
+            <span class="tag" data-skill="Strategy">Strategy</span>
+            <span class="tag" data-skill="Data Governance">Data Governance</span>
+            <span class="tag" data-skill="AI/ML">AI/ML</span>
+			<span class="tag" data-skill="Mentorship">Mentorship</span>
+          </div>
+
+			
+          </div>
+		  
+		<div class="project-section">
+		<div class="project-header">
+		  <h4><a href="https://www.stthomas.edu/academics/graduate/engineering/index.html" target="_blank" class="text-decoration-none">University of St. Thomas, St Paul.</a></h4>
+		  <span class="timeline">Mar 2022 – Oct 2022 | Remote</span>
+		  </div>
+		  <p class="mb-1"><em>Research Assistant</em></p>
 			<p style="color:blue;font-size:20px;"><strong>ML/AI Projects</strong></p>
             <p><strong>Research Assistant Machine Learning:</strong> Unsupervised Contextual Clustering of Abstracts. Used NSF abstract data (300K to Millions of rows) for the last 34 years producing document context through Gensim Doc2Vec Model which suggests similar abstracts based on given abstract. (Deep Learning, ML, NSF, NLP, Python, Visualization, SAS). The submitted paper is being selected at SAS Global Forum 2020 and My Team ranked 1st in the Nationwide SAS Competition. Working on BERT/GPT Models to perform transfer learning/document embeddings.</p> <a href="https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2020/5203-2020.pdf">#Publication</a> 
 			<a href="https://youtu.be/B_3-nbXDruI">#YoutubeVideo</a>
@@ -221,11 +343,21 @@ with less Human Intervention) #Reason Automation Migration and implementation. <
 			<p><strong>Django Web Application: </strong>Created Graduate Program in Software department-wide Web-based Software Request System. (Python, Django, MySQL)</p>
 			<p><strong>Audio Tagging Application: </strong>Implemented Audio Tagging application using various Natural Language Processing techniques and Django Web Framework. (BERT, Google Speech to Text, Google Content Classifier, Python, Django, MySQL, GPUs). </p>
 			
-          </div><!-- /.blog-post -->
-			<hr>
-          <div class="blog-post">
-            <h2 class="blog-post-title"><a href="http://minneanalytics.org/minnemudac/">Minnemudac 2019</a></h2>
-            <p class="blog-post-meta"><strong>Sep, 2019 - Dec 2019</strong></p>
+			
+		<div class="tags">
+            <span class="tag" data-skill="Research">Research</span>
+            <span class="tag" data-skill="Strategy">Strategy</span>
+			<span class="tag" data-skill="Mentorship">Mentorship</span>
+          </div>
+			
+          </div>
+		  
+		<div class="project-section">
+		<div class="project-header">
+		  <h4><a href="http://minneanalytics.org/minnemudac/">Minnemudac 2019</a></h4>
+		  <span class="timeline">Mar 2022 – Oct 2022 | Remote</span>
+		  </div>
+           <p class="blog-post-meta"><strong>Sep, 2019 - Dec 2019</strong></p>
 			This competition was hosted by <a href="http://minneanalytics.org/about-us/">Minneanalytics</a> and <a href="http://www.mudac.org/mankato/">Mudac</a> is well known nonprofit organization serving the data science and emerging technology community in Minnesota, the Upper Midwest. Datasets were sponsored by <a href="https://www.farmfemmes.com/">Farm Femme(Soybean Commodity Data Sponsor)</a> and advised participant to freely use openly available dataset to optimize model predictions. Challenge was to predict 3 different Soybean Contract End of the Day prices for the month of November 2019.
 			<hr>
             <p><strong>Multivariate Time Series LSTM Predictor:</strong> Learned and perfomed detailed analysis from scratch to produce best performing model. Used ideas from Stats, ML,Deep learnig and Commodity market to produce Multivariate Prediction Model. Our Student Team from St. Thomas GPS participated in two consecutive MinneAnalytics competitions (MinneMUDAC and FastCon 2019) and our work was one of the most competitive among the top performers leading most of the teams behind in predictions and technical Design Approach. We were ranked second based on our 15 days prediction for 3 different Soybean's future contract price. 
@@ -236,26 +368,43 @@ with less Human Intervention) #Reason Automation Migration and implementation. <
 			<li><a href="http://bit.ly/2Yh63Uz">Machine Learning Pipeline - 5 Days Soybeans Predictions Web Page - In Development</a> </p></li>
             </ul>
             <p>For more information. <a href="https://speakerdeck.com/hgamit/soybean-futures-prices-predictions">Click Here</a></p>
-          </div><!-- /.blog-post -->
-
-			<hr>
-          <div class="blog-post">
-            <h2 class="blog-post-title"><a href="https://www.kaggle.com/c/understanding_cloud_organization">Semantic Image Segmentation</a></h2>
+			<div class="tags">
+            <span class="tag" data-skill="Research">Research</span>
+            <span class="tag" data-skill="Strategy">Strategy</span>
+			<span class="tag" data-skill="Competition">Competition</span>
+          </div>
+			
+          </div>
+		  
+		<div class="project-section">
+		<div class="project-header">
+		  <h4><a href="https://www.kaggle.com/c/understanding_cloud_organization" target="_blank" class="text-decoration-none">Semantic Image Segmentation</a></h4>
+		  <span class="timeline">Mar 2022 – Oct 2022 | Remote</span>
+		  </div>
             <p class="blog-post-meta"><strong>Aug, 2019 - Dec 2019</strong></p>
 			Designed and Developed Computer Vision Project to complete Arificial Intelligence Credit Class. This project was meant to familiarize and apply understanding from DL and ML methods solving Semantic Image Segmentation Problem.Our team worked on different applications of computer vision techniques and chose Semantic segmentation to learn granualrities of designing Neural Network Architecture using Pytorch.
 			<hr>
 			<p><strong>Semantic Segmentation:</strong> Identify the object category of each pixel for every known object within an image. Here, Labels are class-aware.
-<div class="text-center">
+			<div class="text-center">
             <img class="card-img-right flex-auto d-none d-md-block img-fluid" style="margin-top: 40px;margin-right: 30px; max-width: 80%; height: auto;" alt="Thumbnail [200x250]" src="images/base/segm.png" />
           </div></p>
             <p><strong><a href="https://heartbeat.fritz.ai/deep-learning-for-image-segmentation-u-net-architecture-ff17f6e4c1cf">Unet Architecture:</a></strong> U-Net is Fully Connected Network that consists of a contracting path (left side, learns classification) and an expansive path (right side, learns segmantation masks).</p>
 			<p><strong><a href="https://ai.facebook.com/tools/pytorch/">Pytorch:</a></strong> PyTorch is an open source deep learning framework built to be flexible and modular for research, with the stability and support needed for production deployment. It enables fast, flexible experimentation through a tape-based autograd system designed for immediate and python-like execution.</p>
 	
             <p>For more information. <a href="https://speakerdeck.com/hgamit/semantic-segmentation">Click Here</a></p>
-          </div><!-- /.blog-post -->
-			<hr>
-          <div class="blog-post">
-            <h2 class="blog-post-title">Unsupervised Contextual Clustering of Abstracts</h2>
+			
+						<div class="tags">
+            <span class="tag" data-skill="Research">Research</span>
+            <span class="tag" data-skill="Strategy">Strategy</span>
+			<span class="tag" data-skill="Competition">Competition</span>
+          </div>
+			
+          </div>
+		  
+		<div class="project-section">
+		<div class="project-header">
+		<h4>Unsupervised Contextual Clustering of Abstracts</h4><span class="timeline">Mar 2022 – Oct 2022 | Remote</span>
+		</div>
             <p class="blog-post-meta"><strong>Sep, 2019 - Present</strong></p>
 			This competition is hosted by <a href="https://www.sas.com/en_us/events/sas-global-forum/program/awards-academic-programs.html">SAS</a> called SAS Global Forum 2020. The Sponsors wish to award outstanding student innovators with the opportunity to attend SAS Global Forum 2020 where they will have an opportunity to learn, network, and exchange ideas and experiences. This study utilizes publicly available data from the <a href="https://www.research.gov/common/webapi/awardapisearch-v1.htm">National Science Foundation (NSF) Web Application Programming Interface (API)</a>. We are in process of producing context through BERT Language Model.
 			<hr>
@@ -264,10 +413,17 @@ with less Human Intervention) #Reason Automation Migration and implementation. <
 			<p><strong><a href="https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html">BERT Language Model:</a></strong> BERT builds upon recent work in pre-training contextual representations — including Semi-supervised Sequence Learning, Generative Pre-Training, ELMo, and ULMFit. However, unlike these previous models, BERT is the first deeply bidirectional, unsupervised language representation, pre-trained using only a plain text corpus.</p>
 
             <p>For more information. <a href="#">Click Here</a></p>
-          </div><!-- /.blog-post -->
+						<div class="tags">
+            <span class="tag" data-skill="Research">Research</span>
+            <span class="tag" data-skill="Strategy">Strategy</span>
+			<span class="tag" data-skill="Competition">Competition</span>
+          </div>
+			
+          </div>
 		  
-		    <div class="blog-post">
-            <h2 class="blog-post-title"><a href="#">Other Projects</a></h2>
+		<div class="project-section">
+		<div class="project-header">
+		  <h4><a href="#">Other Projects</a></h4></div>
             <p class="blog-post-meta"><strong>Sep, 2017 - Present</strong></p>
 			This lists my additional projects which were done by me to build statistics and machine learning skills.
 			<hr>
@@ -282,11 +438,19 @@ with less Human Intervention) #Reason Automation Migration and implementation. <
 			<li>Summer Fellow at <a href="https://ece.iisc.ac.in/">IISc Bangalore</a>: Implemented Wireless Security Environment with Java Glomosim Library and redesigned Security structure to optimize WPA Compatible Network. (Java) </li>
             </ul></p>
             <p>For more information. <a href="https://speakerdeck.com/hgamit/">Click Here</a></p>
-          </div> <!--/.blog-post -->
-
-			<hr>
-          <div class="blog-post">
-            <h2 class="blog-post-title"><a href="https://www.amphora.net/">Amphora Inc.</a></h2>
+						<div class="tags">
+            <span class="tag" data-skill="Research">Research</span>
+            <span class="tag" data-skill="Strategy">Strategy</span>
+			<span class="tag" data-skill="Competition">Competition</span>
+          </div>
+			
+          </div> 
+		  
+		<div class="project-section">
+		<div class="project-header">
+		  <h4><a href="https://www.amphora.net/" target="_blank" class="text-decoration-none">Amphora Inc.</a></h4>
+		  <span class="timeline">Mar 2022 – Oct 2022 | Remote</span>
+		  </div>
             <p class="blog-post-meta"><strong>Feb 2012 – May 2017</strong></p>
 
             <p>Worked as a backend automation engineer and applications developer. This involved </p>
@@ -300,54 +464,53 @@ with less Human Intervention) #Reason Automation Migration and implementation. <
 			<li><strong>Technology Migration:</strong> Lead team and Effectively implemented GitHub/SCRUM migration process for the development team, which helped developers smoothly transition code repository from TFS to Git. (Git, Subversion, TFS)</li>
             </ul>
 			<hr>
-          </div><!-- /.blog-post 
-		  
-		  •	Gathering and analyzing user requirements  
-•	Estimation and Sprint planning 
-•	Designing application system models 
-•	Developing/Refining testing application units  
-•	Deployment  
-•	Maintaining CI/CD pipelines 
-•	Participating in Sprint Review  
-•	Responding to outages 
-•	Worked on different technologies like Java, .NET, Web Services, SQL, Microsoft Azure, Node.js, Git, Jira, Angular.js. 
+			
+						<div class="tags">
+            <span class="tag" data-skill="Research">Research</span>
+            <span class="tag" data-skill="Strategy">Strategy</span>
+			<span class="tag" data-skill="Competition">Competition</span>
+          </div>
+			
+          </div>
 
 
-          <nav class="blog-pagination">
-            <a class="btn btn-outline-primary" href="#">Older</a>
-            <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
-          </nav>-->
+        <!-- Additional projects can be added in the same format -->
+      </div>
+    </div>
+  </main>
 
-        </div><!-- /.blog-main -->
-
-      </div><!-- /.row -->
-
-    </main>
-
-
-
-<footer class="footer">
-      <div class="container-fluid">
-	  <p class= "text-center">
-        <span class="text-muted">
-        <a onclick="trackOutboundLink('https://www.linkedin.com/in/himanshu-gamit-profile/');" href="https://www.linkedin.com/in/himanshu-gamit-profile/" target="_blank" alt="LinkedIn">LinkedIn</a>
-        |
-        <a onclick="trackOutboundLink('https://speakerdeck.com/hgamit');" href="https://speakerdeck.com/hgamit" target="_blank" alt="Speaker Deck">Speaker Deck</a>
-        |
-        <a onclick="trackOutboundLink('mailto:himanshu.gamit@stthomas.edu');" href="mailto:himanshu.gamit@stthomas.edu" target="_blank" alt="email">Email</a>
-     </span>
-      </p>
-	  </div>
-    </footer>
-
+  <footer class="footer text-center">
+    <div class="container">
+      <span class="text-muted">
+        <a onclick="trackOutboundLink('https://www.linkedin.com/in/himanshu-gamit-profile/');" href="https://www.linkedin.com/in/himanshu-gamit-profile/" target="_blank">LinkedIn</a> |
+        <a onclick="trackOutboundLink('https://speakerdeck.com/hgamit');" href="https://speakerdeck.com/hgamit" target="_blank">Speaker Deck</a> |
+        <a onclick="trackOutboundLink('mailto:himanshu.gamit@stthomas.edu');" href="mailto:himanshu.gamit@stthomas.edu" target="_blank">Email</a>
+      </span>
+    </div>
+  </footer>
 </div>
 
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const filterButtons = document.querySelectorAll('.filter-bar .btn');
+    const projects = document.querySelectorAll('.project-section');
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const skill = button.textContent.trim();
+        projects.forEach(project => {
+          const tags = Array.from(project.querySelectorAll('.tag')).map(t => t.dataset.skill);
+          if (skill === 'All' || tags.includes(skill)) {
+            project.style.display = 'block';
+          } else {
+            project.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script>
+</body>
 </html>

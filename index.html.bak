@@ -57,6 +57,28 @@
     footer a:hover {
       text-decoration: underline;
     }
+	
+	.tags {
+      margin-top: 1rem;
+    }
+    .tag {
+      display: inline-block;
+      padding: 0.3rem 0.75rem;
+      border-radius: 0.5rem;
+      font-size: 0.85rem;
+      margin: 0.25rem;
+      color: #fff;
+    }
+    .tag[data-skill="Leadership"] { background-color: #0d6efd; }
+    .tag[data-skill="Strategy"] { background-color: #198754; }
+    .tag[data-skill="Data Governance"] { background-color: #6c757d; }
+    .tag[data-skill="AI/ML"] { background-color: #343a40; }
+    .tag[data-skill="Mentorship"] { background-color: #198754; }
+    .tag[data-skill="Analytics"] { background-color: #00539C;}
+    .tag[data-skill="Big Data"] { background-color: #641e16;}
+	.tag[data-skill="Data Engineering"] { background-color: #4a235a; }
+    .tag[data-skill="AI"] { background-color: #6f42c1; }
+	
   </style>
 </head>
 <body>
@@ -86,7 +108,7 @@
       
       <!-- Profile Image -->
       <div class="col-md-4 text-center mb-4 mb-md-0">
-        <img src="images/Profile.jpg" alt="Himanshu Gamit" 
+        <img src="images/profile.jpg" alt="Himanshu Gamit" 
              class="img-fluid rounded-circle shadow"
              style="width: 220px; height: 220px; object-fit: cover;">
       </div>
@@ -102,8 +124,16 @@
 
     </div>
   </div>
+
 </section>
 
+            <div class="tags">
+            <span class="tag" data-skill="Leadership">Leadership</span>
+            <span class="tag" data-skill="Strategy">Strategy</span>
+            <span class="tag" data-skill="Data Governance">Data Governance</span>
+            <span class="tag" data-skill="AI/ML">AI/ML</span>
+			<span class="tag" data-skill="Mentorship">Mentorship</span>
+          </div>
 
       <p>
         I'm a <strong>Data and AI Strategic Leader</strong> with a passion for turning complex enterprise technology ecosystems into secure and sustainable platforms.
@@ -117,7 +147,7 @@
       </ul>
 
       <p>
-        I specialize in delivering enterprise digital platforms at the intersection of software, AI, and data infrastructure. As a trusted advisor to leadership, I bring vision, execution and value together.
+        I specialize in delivering enterprise platforms at the intersection of software, AI, and data infrastructure. As a trusted advisor to leadership, I bring vision, execution and value together.
       </p>
 
       <p>
