@@ -104,6 +104,8 @@
       <button class="btn btn-outline-dark btn-sm">AI/ML</button>
       <button class="btn btn-outline-dark btn-sm">Analytics</button>
       <button class="btn btn-outline-dark btn-sm">Mentorship</button>
+	  <button class="btn btn-outline-dark btn-sm">Research</button>
+      <button class="btn btn-outline-dark btn-sm">Competition</button>
     </div>
 
     <div class="row">
@@ -115,11 +117,11 @@
             <span class="timeline">Nov 2022 – Present | MN, USA</span>
           </div>
 		  <p class="mb-1"><em>Global Talent Analytics Platform Owner</em></p>
-          <p>Launched global self-service data analytics platform. Supported executive decisions with $1M+ in annual time savings. Spearheaded HR analytics governance and strategy.</p>
+          <p>Delivered global HR data analytics initiatives resulting in improving analytical capabilities by 40% and realized $1.4M annual time and cost savings within 12 months.</p>
           <ul>
             <li>Subject matter expert (SME) in fostering a high-performance data culture, managing and mentoring cross-
-functional teams (10+ analysts, researchers, domain experts, engineers, scientists, and leaders), increasing team productivity by 40% and reducing data science and analytics project backlog by 20% within 12 months. </li>
-<li>Launched self-service analytics and predictive solutions (Tableau, Notifications, data automation, Forecasting, Insights Recommendations) across the org (North America, EMEA, APAC, LATAM), improved executive decision- making speed and reduced ad-hoc reporting requests, totaling $1M in time savings.</li>
+functional teams (8+ analysts, researchers, domain experts, engineers, scientists, and leaders), increasing team productivity and reducing data science and analytics project backlog by 40% within 12 months. </li>
+<li>Launched self-service analytics and predictive solutions (Tableau, Notifications, data automation, Forecasting, Insights Recommendations) across the org (North America, EMEA, APAC, LATAM), improved executive decision- making speed and reduced ad-hoc reporting requests, totaling $1.4M in time savings.</li>
 Analytical tools: AWS, SQL, Python, Tableau, Snowflake, ETL, Storage, AI/ML, RPA, Automated data pipelines. </li>
 <li>Facilitated strategic prioritization meetings with Steerco, Program, HR, Finance, and IT partners to assess the effort, value, and urgency of projects focused on utilizing data, machine learning, and AI techniques to improve the
 organization's talent analytics capabilities.</li>
@@ -150,7 +152,7 @@ alignment, and 100% compliance with privacy policies.</li>
 		  <span class="timeline">Mar 2022 – Oct 2022 | Remote</span>
 		  </div>
 		  <p class="mb-1"><em>Sr. Data Scientist/Engineer</em></p>
-          <p>Led the development of a scalable Property Scoring Module using AWS, Python, and Spark to optimize bid strategies,while mentoring a cross-functional team of analysts and engineers—boosting team productivity by 25%.</p>
+          <p>Led analysts and business partners to introduce a new business-innovated Automated Property Scoring Module on AWS; accelerated bidding strategy, scaled decision-making from 20 to 1000+ bids, and increased profits by $300K in quarterly recurring revenue within twelve weeks of joining.</p>
           <ul>
 			<li>Communicating with stakeholders to study domain and build data product requirements.</li>
 			<li>Supervised a team of two data engineers, helping them learn and grow.</li>
@@ -199,7 +201,7 @@ alignment, and 100% compliance with privacy policies.</li>
 		 <p class="mb-1"><em>Lead Data Engineer</em></p>
          
 		<ul>
-		<li>Led a team of three data engineers, helping them learn and grow. Development and Maintenance of Data engineering Projects.</li>
+		<li>Mentored analysts, engineers and business partners, Achieved $6M+ in cost savings and revenue enablement through improved retail, operations and marketing analytics for 100+ Amazon partners and business stakeholders. [Team Size: 6].</li>
 		<li>Demonstrating leadership skills, evaluating current processes, and implementing data engineering and application development track for the organization.</li>
 		<li>Accomplished robust Marketing Spend Model (DSP, OTT, Search compared to Sales) Analysis and Developing Ecommerce Customer Acquisition Funnel by querying big data. MTA, cross channel optimization.</li>
 		<li>Integrated marketing team performs engagement, retention, acquisition, marketing efficiency, A/B testing</li>
@@ -208,18 +210,14 @@ alignment, and 100% compliance with privacy policies.</li>
 		<p class="mb-1"><em>Data Engineer</em></p>
          
 <ul>
-<li><strong>Created robust analytical infrastructure:</strong> connecting structured and unstructured data sources from data 
-sources such as AWS RDS, REST API, AWS S3 to Postgres Database for ease of use by different analysts using 
-Python, SQL, and Alteryx. 100+ Vendor and Seller accounts plus approximately 150+ advertising brands. Python, 
+<li><strong>Created robust analytical infrastructure:</strong> connecting structured and unstructured data sources from data  sources such as AWS RDS, REST API, AWS S3 to Postgres Database for ease of use by different analysts using  Python, SQL, and Alteryx. 100+ Vendor and Seller accounts plus approximately 150+ advertising brands. Python, 
 Alteryx</li>
+<li>Unified legacy data into an analytics-ready data warehouse, reducing costs by $2M annually within 2 quarters.</li>
 <li><strong>Designed Data Warehouse:</strong> Design, Implementation, and Management - Built Single Version of Truth for the 
 analytical and reporting needs. AWS RDS</li>
-<li><strong>Optimized Reporting Performance:</strong> Deep dive into performance issues with analysts improving External 
-Marketing/Sales Report performance from dead slow to 2 seconds refresh leveraging report user experience 
-interacting with reporting. The same thing goes for most other reports. #Tableau, Datorama </li>
+<li><strong>Optimized Reporting Performance:</strong> Deep dive into performance issues with analysts improving External Marketing/Sales Report performance from dead slow to 2 seconds refresh leveraging report user experience  interacting with reporting. The same thing goes for most other reports. #Tableau, Datorama </li>
 <li><strong>Analytical study of big data and extracting insights:</strong> from the big data lake. AMC Visualization, Development, 
-Coding, Execution. Navigating the project and drive communications with Amazon and internal teams.
-Optimizing marketing channel presentation through automating reporting solutions to gain marketing spend 
+Coding, Execution. Navigating the project and drive communications with Amazon and internal teams. Optimizing marketing channel presentation through automating reporting solutions to gain marketing spend 
 clarity. #AmazonMarketingCloud, Python, SQL, AWS </li>
 <li>Datorama: Help support Salesforce Datorama development, execution, and building feedback for Professional 
 Service Provider. Understand datorama backend and development. </li>
@@ -229,8 +227,7 @@ Service Provider. Understand datorama backend and development. </li>
 <li>Data Tools evaluation to see if that will cost less and give better performance. In-housing data engineering  
 projects, Coming with project and development plans and sharing them with the team to build cost-savings 
 measures. </li>
-<li>Chime in wherever needed and assist the team resolve high-priority issues - data engineering, validations, and 
-visualizations. Continuous coordination with analysts, business users, and stakeholders to make data and 
+<li>Chime in wherever needed and assist the team resolve high-priority issues - data engineering, validations, and visualizations. Continuous coordination with analysts, business users, and stakeholders to make data and 
 systems available on time. </li>
 <li>Working with team in-housing share of voice analysis development, integration, and automation. Planning to 
 capture buyer experience when they look for a product on amazon.com. Involves guiding new engineers to get 
