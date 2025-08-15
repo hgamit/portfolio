@@ -151,7 +151,7 @@ alignment, and 100% compliance with privacy policies.</li>
 		  <h4><a href="https://crowdcapital.io/" target="_blank" class="text-decoration-none">Crowd Capital</a></h4>
 		  <span class="timeline">Mar 2022 – Oct 2022 | Remote</span>
 		  </div>
-		  <p class="mb-1"><em>Sr. Data Scientist/Engineer</em></p>
+		  <p class="mb-1"><em>Manager of Data Engineering</em></p>
           <p>Led analysts and business partners to introduce a new business-innovated Automated Property Scoring Module on AWS; accelerated bidding strategy, scaled decision-making from 20 to 1000+ bids, and increased profits by $300K in quarterly recurring revenue within twelve weeks of joining.</p>
           <ul>
 			<li>Communicating with stakeholders to study domain and build data product requirements.</li>
@@ -198,7 +198,7 @@ alignment, and 100% compliance with privacy policies.</li>
 		<h4><a href="https://www.123goecom.com/" target="_blank" class="text-decoration-none">Global Overview</a></h4>
         <span class="timeline">Oct, 2020 - Feb,2022 | Minnetonka, MN</span>
          </div>
-		 <p class="mb-1"><em>Lead Data Engineer</em></p>
+		 <p class="mb-1"><em>Manager of Data Science</em></p>
          
 		<ul>
 		<li>Mentored analysts, engineers and business partners, Achieved $6M+ in cost savings and revenue enablement through improved retail, operations and marketing analytics for 100+ Amazon partners and business stakeholders. [Team Size: 6].</li>
@@ -277,6 +277,7 @@ with less Human Intervention) #Reason Automation Migration and implementation. <
 		<p class="mb-1"><em>Data Scientist</em></p>
  
             <p><strong>Analytical Pipeline (AWS Web Services Stack:</strong> Built robust analytical infrastructure connecting structured and unstructured data sources from data sources such as (RDS, Click Stream and logs) to AWS Redshift, AWS EMR for ease of use by different analysts using Pandas, AWS Athena and QuickSight. (Amazon Kinesis Data Firehouse, AWS S3, AWS Lamda, Glue, DMS, Athena).</p>
+			<p>Migrated Analytical Artifacts from Tableau to AWS Quicksight with a team of four, leading to $500K in cost savings annually. </p>
 			<p><strong>Cloud Computing: </strong> The AWS infrastructure for the real-time data analysis that involves visualizing and Forecasting Resource Utilization (100K to Millions of rows) of processed data on AWS S3. This helps the administration to investigate business insights from campus resource usage from IoT and Applications Data to determine space and equipment’s demands to take strategic budgeting and resource requirements decisions. (Python, SQL, Visualization).</p>
 			<p><strong>Data Warehousing: Evaluating and Performing Grain Evaluation: </strong> Identified the granularity of each table and business process to drill down to very important dimensions and measures. Various scenarios and Questions got brainstormed to improve the intelligent system. (SQL, MySQL, Visualization).</p>
 			<p><strong>ML Insights and Anomaly Detection: </strong> Python, QuickSight Visualization, Tableau.</p>
