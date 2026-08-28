@@ -1,2 +1,4 @@
 .ipynb_checkpoints
 node_modules/
+*.bak
+*.pre-cv-sync
